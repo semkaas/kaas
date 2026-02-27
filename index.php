@@ -1,5 +1,6 @@
 <?php
-echo "index pagina balls";
+echo "index pagina";
+
 
 ?>
 
