@@ -13,6 +13,18 @@
 
 <?php include 'includes/header.php'; ?>
 
+ <section class="deals">
+        <article class="deal1">
+            <h1> wekelijkse deals </h1>
+            <img src="img/hamlappen.png" alt="fotohamlap">
+        </article>
+        <article class="deal2">
+            <h1> beef brisket 12% korting </h1>
+            <img src="img/patat.webp" alt="fotopatat">
+            <h1> patat nu 8% korting </h1>
+        </article>
+ </section>
+    <hr>
 
  <section class="deals">
         <article class="deal1">
