@@ -9,8 +9,43 @@
     
 </head>
 <body>
-
 <?php include 'includes/header.php'; ?>
+
+<h1> menukaart</h1>
+<section id="menu_info">
+    <article class="menuCategory">
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Lunch</h2>
+        <article class="menu_items" style="display: none;">
+            <p>Gezond - 5 euro</p>
+            <p>Kip - 6 euro</p>
+        </article>
+    </article>
+
+    <article class="menuCategory">
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Voorgerechten</h2>
+        <article class="menu_items" style="display: none;">
+            <p>Gezond - 5 euro</p>
+            <p>Kip - 6 euro</p>
+        </article>
+    </article>
+
+    <article class="menuCategory">
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Hoofdgerechten</h2>
+        <article class="menu_items" style="display: none;">
+            <p>Koffie - 2 euro</p>
+            <p>Thee - 2 euro</p>
+        </article>
+    </article>
+
+    <article class="menuCategory">
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Nagerechten</h2>
+        <article class="menu_items" style="display: none;">
+            <p>Koffie - 2 euro</p>
+            <p>Thee - 2 euro</p>
+        </article>
+    </article>
+
+   
 
  
 <?php include 'includes/footer.php'; ?>
