@@ -25,7 +25,8 @@
         </article>
  </section>
     <hr>
-<h1>welkom op onze pagina!</h1>
+<h1>De website van Vlam & Vlees ontstond vanuit dezelfde gedachte als het restaurant zelf: gastvrijheid, vuur en vakmanschap samenbrengen op één plek. Toen Vlam & Vlees zijn deuren opende in Zoetermeer, merkten we al snel dat onze gasten meer wilden dan alleen een tafel in het restaurant. Ze wilden onze sfeer online kunnen voelen, onze gerechten alvast kunnen proeven met hun ogen en eenvoudig een reservering kunnen maken.
+</h1>
  
 
 <?php include 'includes/footer.php'; ?>
