@@ -25,9 +25,17 @@
     <article class="menuCategory">
         <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Voorgerechten (17:00-22:00)</h2>
         <article class="menu_items" style="display: none;">
-            <p>Gezond - 5 euro</p>
-            <p>Kip - 6 euro</p>
+        <h1>BBQ Nacho's 9,50</h1> 
+        <p>
+Tortillachips met pulled pork, cheddar, jalapeños, BBQ-saus en zure room</p>
+            <h1>Smoked Wings 8,50</h1> 
+        <p>
+Gerookte kippenvleugels met keuze uit: BBQ, Buffalo of Honey-Sriracha saus</p>
+        <h1>Uienringen 6,50</h1> 
+        <p>
+Krokante uienringen met ranch dressing</p>
         </article>
+
     </article>
 
     <article class="menuCategory">
