@@ -16,8 +16,9 @@
     <article class="menuCategory">
         <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Lunch</h2>
         <article class="menu_items" style="display: none;">
-            <p>Gezond - 5 euro</p>
-            <p>Kip - 6 euro</p>
+            <p>Broodje met ei en geitenkaas - 9 euro</p>
+            <p>Broodje met draadjesvlees en mayonaise - 13 euro</p>
+            <p>ei en rundvlees salade - 11,50 euro</p>
         </article>
     </article>
 
