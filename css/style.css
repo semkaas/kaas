@@ -74,7 +74,7 @@
     border-radius: 15px;
     
 }
-.blackbox {
+.darkmode {
     background-color: black;
     width: 8vw;
     height: 35px;
@@ -162,14 +162,14 @@ hr {
     border-radius: 15px;
     
 }
-.blackbox {
+.darkmode {
     background-color: black;
     width: 35px;
     height: 35px;
     margin-top: 22px;
     margin-left: 10vw;
 }
-.hamburgermenu {
+.hamburger {
     background-color: black;
     width: 35px;
     height: 35px;

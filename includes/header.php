@@ -6,7 +6,7 @@
         <article class = "searchbar">
             <h1></h1>
         </article>
-        <article class = "blackbox">
+        <article class = "darkmode">
             <h1></h1>
         </article>
         <article class = "hamburger">
