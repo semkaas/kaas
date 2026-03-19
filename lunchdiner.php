@@ -11,7 +11,12 @@
 <body>
 <?php include 'includes/header.php'; ?>
 
-<h1> menukaart</h1>
+<section class="titel">
+    <h1>menukaart<h1>
+</section>
+<section class="cashback">
+    <h1>100% geld terug<h1>
+</section>
 <section id="menu_info">
     <article class="menuCategory">
         <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Lunch (11:00-13:00)</h2>
@@ -61,7 +66,7 @@
         <p>Halve kip, langzaam gerookt met kruiden</p>
         <h1>The Pitmaster 32,50</h1>
         <p>Combinatie van brisket, pulled pork en ribs</p>
-        <h1>Family Feast (2-3 pers.) 59,50</h1>
+        <h1>Family Feast 2-3 pers. 59,50</h1>
         <p>Selectie van al onze BBQ-specialiteiten</p>
         <h1>sides</h1>
         <h3>Mac 'n Cheese 4,50<h3>

@@ -3,21 +3,7 @@
     padding: 0;
 }
 
-.menu_heading {
-    background-color: #f1f1f1;
-    padding: 15px;
-    margin: 5px 0;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    display: block;
-}
 
-.menu_items {
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #eee;
-    
-}
 
 /* telefoon  767.9*/
 .voet{
@@ -29,12 +15,40 @@
     justify-content: center;
 }
 
+
 @media (max-width: 576px) {
     .banner {
     background-color: #343434;
     max-height: 73px;
     max-width: auto;
     display: flex;
+}
+.menu_heading {
+    background-color: grey;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.menu_items {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    
+}
+.titel{
+    background-color: #922C06;
+    justify-items: center;
+    font-size: 25px;
+    height: 6vh;
+}
+.cashback{
+    background-color: limegreen;
+    justify-items: center;
+    
+    height: 3vh;
+    font-size: 12px;
 }
 .logo > img{
     max-height: 73px;
@@ -91,7 +105,33 @@ hr {
 
 /* tablets */
 @media (min-width: 577px) and (max-width: 991px) {
+.menu_heading {
+    background-color: grey;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    display: block;
+}
 
+.menu_items {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    
+}
+.titel{
+    background-color: #922C06;
+    justify-items: center;
+    font-size: 25px;
+    height: 6vh;
+}
+.cashback{
+    background-color: limegreen;
+    justify-items: center;
+    
+    height: 3vh;
+    font-size: 12px;
+}
 .banner {
     background-color: #343434;
     max-height: 73px;
