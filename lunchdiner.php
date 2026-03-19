@@ -53,6 +53,30 @@
         <h1>Pulled Pork 19,50</h1> 
         <p>
             Langzaam gegaard varkensvlees met BBQ-saus</p>
+        <h1> baby back ribs </h1>
+        <p>Halve rack 19,50</p>
+        <p>Hele rack 28,50</p>
+        <p>Malse varkensribbetjes met BBQ-glazuur</p>
+        <h1>Smoked Chicken 18,50</h1>
+        <p>Halve kip, langzaam gerookt met kruiden</p>
+        <h1>The Pitmaster 32,50</h1>
+        <p>Combinatie van brisket, pulled pork en ribs</p>
+        <h1>Family Feast (2-3 pers.) 59,50</h1>
+        <p>Selectie van al onze BBQ-specialiteiten</p>
+        <h1>sides</h1>
+        <h3>Mac 'n Cheese 4,50<h3>
+        <h3>Geroosterde Groenten 4,00<h3>
+        <h3>Zoete Aardappel Friet 4,50<h3>
+        <h3>Aardappel Wedges 4,00<h3>
+        <h3>Extra Coleslaw 3,50<h3>
+        <h1>sauzen</h1>
+        <h3>Classic BBQ</h3>
+        <h3>Honey Mustard</h3>
+        <h3>Spicy Chipotle</h3>
+        <h3>Alabama White Sauce</h3>
+        <h3>Alle sauzen 1,50</h3>
+
+
 
 
 
