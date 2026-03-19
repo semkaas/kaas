@@ -9,8 +9,10 @@
         <article class = "blackbox">
             <h1></h1>
         </article>
-        <article class = "hamburgermenu">
-            <h1></h1>
-        </article>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </section>
 </header>

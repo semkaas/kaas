@@ -39,12 +39,6 @@
             <h1>Uienringen 6,50</h1> 
             <p>
                 Krokante uienringen met ranch dressing</p>
-            
-
-
-
-
-
         </article>
 
     </article>
@@ -80,15 +74,6 @@
         <h3>Spicy Chipotle</h3>
         <h3>Alabama White Sauce</h3>
         <h3>Alle sauzen 1,50</h3>
-
-
-
-
-
-
-
-
-
         </article>
     </article>
 
