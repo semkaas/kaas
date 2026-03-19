@@ -3,16 +3,7 @@ function toggleMenu() {
     // Toggle voegt de class toe als hij er niet is, en haalt hem weg als hij er wel is
     menu.classList.toggle('open');
 }
-document.getElementById('menu_info').addEventListener('click', openOrCloseCategory)
-function openOrCloseCategory(event) {
-if (event.target.classList.contains("menu_heading")) {
-     if (event.target.nextElementSibling.style.display == "grid") {
-            event.target.nextElementSibling.style.display = "none";
-        } else {
-             event.target.nextElementSibling.style.display = "grid";
-        }
-    }
-}
+
 // const ham = document.getElementsByClassName("hamburger")[0]
 // const nav = document.getElementsByClassName("banner")[0]
 // const main = document.main;
