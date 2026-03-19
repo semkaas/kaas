@@ -9,12 +9,23 @@
    
 </head>
 <body>
- 
 <?php include 'includes/header.php'; ?>
- 
- 
- 
- 
+<header></header>
+<main>
+    <section>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+</main>
 <?php include 'includes/footer.php'; ?>
 </body>
 </html>
