@@ -1,4 +1,7 @@
 <header>
+    <article class = "hamburger">
+            <h1></h1>
+        </article>
     <section class ="banner">
         <article class = "logo">
             <img src="img/logo_vlam_en_vlees.png" alt="Logo Vlam en Vlees">

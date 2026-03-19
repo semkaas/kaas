@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-mode="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,7 @@
 <section class="titel">
     <h1>menukaart<h1>
 </section>
-<article class = "hamburger">
-            <h1></h1>
-        </article>
+
 <section class="cashback">
     <h1>100% geld terug<h1>
 </section>

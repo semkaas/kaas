@@ -10,6 +10,7 @@
 // }
 const ham = document.getElementsByClassName("hamburger")[0]
 const nav = document.getElementsByClassName("banner")[0]
+const lightdark = document.getElementById('darkmode')[0]
 function showOrHideNav(e){
     if(nav.style.display != 'flex'){
         nav.style.display = 'flex'
@@ -17,4 +18,11 @@ function showOrHideNav(e){
         nav.style.display = 'none'
     }
 }
+function switchMode(){
+    if (document.documentElement.dataset.mode = 'dark'){
+        document.docu
+    }
+}
 ham.addEventListener('click', showOrHideNav);
+document.element
+lightdark.addEventListener('click', switchMode)
