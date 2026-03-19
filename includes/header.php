@@ -9,9 +9,7 @@
         <article class = "darkmode">
             <h1></h1>
         </article>
-        <article class = "hamburger">
-            <h1></h1>
-        </article>
+        
         </div>
     </section>
 </header>
