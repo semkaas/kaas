@@ -131,10 +131,10 @@
 }
 .hamburger {
     background-color: #922C06;
-    width: 8vw;
-    height: 35px;
-    margin-top: 22px;
-    margin-left: 4vw;
+    width: 13vw;
+    height: 7vh;
+    margin-top: 5px;
+    margin-left: 1vw;
 }
 .deal1 {
     font-size: 30px;
@@ -245,8 +245,8 @@ hr {
 }
 .hamburger {
     background-color: #922C06;
-    width: 35px;
-    height: 35px;
+    width: 13vw;
+    height: 7vh;
     margin-top: 22px;
     margin-left: 10vw;
 }
