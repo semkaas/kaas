@@ -31,6 +31,47 @@
     max-width: auto;
     display: flex;
 }
+.hamburgermenu > {
+    text-decoration: none;
+
+}
+.hamburgermenu{
+    background-color: #922C06;
+}
+#dropdown-menu {
+    background-color: #f4f4f4; 
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-out;
+    width: 100%;
+}
+
+
+#dropdown-menu.open {
+    max-height: 300px;
+    border-bottom: 2px solid #ccc;
+}
+
+#dropdown-menu ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+#dropdown-menu li {
+    padding: 10px 0;
+}
+
+
+
+#dropdown-menu ul li a {
+    text-decoration: none;  
+    color: #000000;           
+    font-size: 1.2rem;
+    display: block;         
+    padding: 10px 20px;     
+   
+}
 
 
 

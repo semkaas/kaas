@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php include 'includes/header.php'; ?>
-
+<main>
 <section class="titel">
     <h1>menukaart<h1>
 </section>
@@ -100,7 +100,7 @@
                 margin-top: 50vh;
             }
         </style>
-   
+<main>
 
  
 <?php include 'includes/footer.php'; ?>
