@@ -10,7 +10,13 @@
     --bgColor: black;
 
 }
-
+.hamburger {
+ 
+  background-image: url("../img/menu.png");
+  background-size: cover;    /* Zorgt dat de afbeelding het hele vak vult */
+  background-position: center; /* Centreert de afbeelding */
+  
+}
 
 
 /* telefoon  767.9*/
@@ -124,7 +130,7 @@
     margin-left: 4vw;
 }
 .hamburger {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 8vw;
     height: 35px;
     margin-top: 22px;
@@ -245,7 +251,7 @@ hr {
     margin-left: 10vw;
 }
 .hamburger {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 35px;
     height: 35px;
     margin-top: 22px;
