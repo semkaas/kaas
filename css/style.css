@@ -169,7 +169,7 @@ hr {
     display: block;
 }
 #dropdown-menu {
-    background-color: #f4f4f4; 
+    background-color: #922C06;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
