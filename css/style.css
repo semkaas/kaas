@@ -13,8 +13,8 @@
 .hamburger {
  
   background-image: url("../img/menu.png");
-  background-size: cover;    /* Zorgt dat de afbeelding het hele vak vult */
-  background-position: center; /* Centreert de afbeelding */
+  background-size: cover;  
+  background-position: center; 
   
 }
 
@@ -243,12 +243,13 @@ hr {
     margin-top: 22px;
     margin-left: 10vw;
 }
+
 .hamburger {
     background-color: #922C06;
     width: 13vw;
     height: 7vh;
-    margin-top: 22px;
-    margin-left: 10vw;
+    margin-top: 5px;
+    margin-left: 1vw;
 }
 .deal1 {
     font-size: 30px;
