@@ -19,10 +19,11 @@
     
             <nav id="dropdown-menu" class="menu-hidden">
         <ul class="hamburgermenu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Assortiment</a></li>
-            <li><a href="#">Over ons</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="lunchdinner.php">lunch en dinner</a></li>
+            <li><a href="navigatie.php">locatie</a></li>
+            <li><a href="reseveren.php">reseveren</a></li>
+            <li><a href="vacatures.php">bij ons werken</a></li>
         </ul>
     
 </nav>
