@@ -130,7 +130,7 @@
     margin-left: 4vw;
 }
 .hamburger {
-    background-color: rgb(255, 255, 255);
+    background-color: #922C06;
     width: 8vw;
     height: 35px;
     margin-top: 22px;
@@ -169,7 +169,7 @@ hr {
     display: block;
 }
 #dropdown-menu {
-    background-color: #922C06;
+    background-color: #f4f4f4; 
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
@@ -187,17 +187,10 @@ hr {
     padding: 20px;
     margin: 0;
 }
-
-#dropdown-menu li {
-    padding: 10px 0;
-}
-
-
-
 #dropdown-menu ul li a {
     text-decoration: none;  
     color: #000000;           
-    font-size: 1.2rem;
+    font-size: 40px;
     display: block;         
     padding: 10px 20px;     
    
@@ -251,7 +244,7 @@ hr {
     margin-left: 10vw;
 }
 .hamburger {
-    background-color: rgb(255, 255, 255);
+    background-color: #922C06;
     width: 35px;
     height: 35px;
     margin-top: 22px;
