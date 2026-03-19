@@ -25,15 +25,21 @@
     <article class="menuCategory">
         <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Voorgerechten (17:00-22:00)</h2>
         <article class="menu_items" style="display: none;">
-        <h1>BBQ Nacho's 9,50</h1> 
-        <p>
-Tortillachips met pulled pork, cheddar, jalapeños, BBQ-saus en zure room</p>
+            <h1>BBQ Nacho's 9,50</h1> 
+            <p>
+                Tortillachips met pulled pork, cheddar, jalapeños, BBQ-saus en zure room</p>
             <h1>Smoked Wings 8,50</h1> 
-        <p>
-Gerookte kippenvleugels met keuze uit: BBQ, Buffalo of Honey-Sriracha saus</p>
-        <h1>Uienringen 6,50</h1> 
-        <p>
-Krokante uienringen met ranch dressing</p>
+            <p>
+                Gerookte kippenvleugels met keuze uit: BBQ, Buffalo of Honey-Sriracha saus</p>
+            <h1>Uienringen 6,50</h1> 
+            <p>
+                Krokante uienringen met ranch dressing</p>
+            
+
+
+
+
+
         </article>
 
     </article>
@@ -41,8 +47,19 @@ Krokante uienringen met ranch dressing</p>
     <article class="menuCategory">
         <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Hoofdgerechten (17:00-22:00)</h2>
         <article class="menu_items" style="display: none;">
-            <p>Koffie - 2 euro</p>
-            <p>Thee - 2 euro</p>
+            <h1>Beef Brisket 24,50</h1> 
+        <p>
+            14 uur lang gerookt rundvlees, gekruid met ons eigen rub</p>
+        <h1>Pulled Pork 19,50</h1> 
+        <p>
+            Langzaam gegaard varkensvlees met BBQ-saus</p>
+
+
+
+
+
+
+
         </article>
     </article>
 
@@ -53,7 +70,21 @@ Krokante uienringen met ranch dressing</p>
             <p>Thee - 2 euro</p>
         </article>
     </article>
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <style>
+            .voet{
+                margin-top: 50vh;
+            }
+        </style>
    
 
  
