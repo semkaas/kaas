@@ -2,14 +2,14 @@
     margin: 0;   
     padding: 0;
 }
-:root[data-mode='dark']{
+/* :root[data-mode='dark']{
     --bgColor: black;
     --bgSecond: rgb(255, 0, 0);
     --bgColor: black;
     --bgColor: black;
     --bgColor: black;
 
-}
+} */
 .hamburger {
  
   background-image: url("../img/menu.png");
@@ -246,7 +246,7 @@ hr {
 
 .hamburger {
     background-color: #922C06;
-    width: 13vw;
+    width: 10vw;
     height: 7vh;
     margin-top: 5px;
     margin-left: 1vw;
