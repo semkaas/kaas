@@ -12,18 +12,10 @@
 <?php include 'includes/header.php'; ?>
 <header></header>
 <main>
-    <section>
-
-
-
-
-
-
-
-
-
-
-
+    <section id="OpeningsTijden">
+        <article class="Tijden">
+            <h2>Openings Tijden:</h2>
+        </article>
 </section>
 </main>
 <?php include 'includes/footer.php'; ?>
