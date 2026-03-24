@@ -10,21 +10,18 @@
 </head>
 <body>
 <?php include 'includes/header.php'; ?>
-<header></header>
+
 <main>
-    <section>
+    <section class="offer">
+        <article class ="offertekst">
+
+            <h1> valentijnsdag - romantische tafel voor 2 vanaf 39,99$ per persoon
+voorgerecht+hoofdgerecht+
+nagerrecht</h1>
 
 
-
-
-
-
-
-
-
-
-
-</section>
+        </article>
+    </section>
 </main>
 <?php include 'includes/footer.php'; ?>
 </body>
