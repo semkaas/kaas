@@ -41,6 +41,62 @@
     text-decoration: none;
 
 }
+.bestelknop{
+    background-color: #19ee3c;
+    border: solid black 3px;
+    width: 90vw;
+    margin-left: 5vw;
+    border-radius: 20px;
+    margin-bottom: 10vw;
+
+}
+.offertekst{
+    background-color: #922C06;
+    border: solid black 3px;
+
+}
+.fotoagenda{
+    width: 100vw;
+    margin-bottom: 10vh;
+}
+.fotoagenda > img{
+    width: 100vw;
+    
+}
+.foto1{
+    margin-top: 3vh;
+    margin-left: 6vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+
+
+    width: 40vw;
+    height: auto;
+}
+.foto1 > img{
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 40vw;
+    height: auto;
+}
+.offerfoto{
+    display: flex;
+}
+.foto2{
+    
+    width: 40vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+}
+.foto2 > img{
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 40vw;
+    height: auto;
+}
 .hamburgermenu{
     background-color: #922C06;
 }

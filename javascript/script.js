@@ -1,6 +1,5 @@
 function toggleMenu() {
     const menu = document.getElementById('dropdown-menu');
-    // Toggle voegt de class toe als hij er niet is, en haalt hem weg als hij er wel is
     menu.classList.toggle('open');
 }
 
