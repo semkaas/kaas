@@ -7,8 +7,7 @@
         <article class = "searchbar">
             <h1></h1>
         </article>
-        <article class = "darkmode">
-            <h1></h1>
+        <figure id="lightdark">&#127765</figure>
         </article>
         <article class = "hamburger" onclick="toggleMenu()">
             <h1></h1>
@@ -16,7 +15,7 @@
         
         </div>
     </section>
-    
+            
             <nav id="dropdown-menu" class="menu-hidden">
         <ul class="hamburgermenu">
             <li><a href="index.php">Home</a></li>
