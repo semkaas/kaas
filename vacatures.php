@@ -12,7 +12,12 @@
 <?php include 'includes/header.php'; ?>
 <header></header>
 <main>
-
+<section class="container">
+    <article class="header">Header</article>
+    <article class="sidebar">Sidebar</article>
+    <article class="content">Content</article>
+    <article class="footer">Footer</article>
+  </section>
 </main>
 <?php include 'includes/footer.php'; ?>
 </body>
