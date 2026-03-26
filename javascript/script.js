@@ -1,3 +1,8 @@
+let lightanddark = document.getElementById("lightdark")
+
+
+
+
 function toggleMenu() {
     const menu = document.getElementById('dropdown-menu');
     menu.classList.toggle('open');
@@ -16,11 +21,17 @@ function toggleMenu() {
 //     }
 // }
 // ham.addEventListener('click', showOrHideNav);
-// // function switchMode(){
-// //     if (document.documentElement.dataset.mode = 'dark'){
-// //         document.docu
-// //     }
-// // }
+function switchMode(){
+    if(document.documentElement.dataset.mode == "light"){
+       document.documentElement.dataset.mode = 'dark';
+}
+else{
+    document.documentElement.dataset.mode = "light"
+}
+    
+}
 
-// // document.element
-// // lightdark.addEventListener('click', switchMode)
+// document.element
+lightanddark.addEventListener('click', switchMode);
+// (document.documentElement.dataset.mode = 'dark'){
+//         document.docu

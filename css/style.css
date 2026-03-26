@@ -2,14 +2,22 @@
     margin: 0;   
     padding: 0;
 }
-/* :root[data-mode='dark']{
-    --bgColor: black;
-    --bgSecond: rgb(255, 0, 0);
-    --bgColor: black;
-    --bgColor: black;
-    --bgColor: black;
+:root[data-mode='light']{
+    --bgColor: #ffffff;
+    --bgSecond: rgb(0, 0, 0);
+    --bgThird: black;
+    --accent: black;
+    --textColor: black;
 
-} */
+}
+:root[data-mode='dark']{
+    --bgColor: rgb(0, 0, 0);
+    --bgSecond: rgb(255, 255, 255);
+    --bgThird: rgb(255, 255, 255);
+    --accent: rgb(255, 255, 255);
+    --textColor: rgb(255, 255, 255);
+
+}
 .hamburger {
  
   background-image: url("../img/menu.png");
@@ -18,7 +26,10 @@
   
 }
 
-
+html{
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+}
 /* telefoon  767.9*/
 .voet{
     background-color: gray;
@@ -41,6 +52,7 @@
     text-decoration: none;
 
 }
+
 .bestelknop{
     background-color: #19ee3c;
     border: solid black 3px;
