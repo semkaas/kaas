@@ -55,32 +55,40 @@ html{
 .container {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 10vh 40vh 40vh 10vh;
+    grid-template-rows: 0vh 80vh 10vh 10vh;
     grid-template-areas:
       "header"
       "content"
       "sidebar"
       "footer";
+    
   }
 
 .header {
     grid-area: header;
-    background-color: #847070;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    
+    
   }
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #534242;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    
   }
 
 .content {
     grid-area: content;
-    background-color: #e3bdbd;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
   }
 
 .footer {
     grid-area: footer;
-    background-color: #c0c0c0;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
   }
 
 .bestelknop{
