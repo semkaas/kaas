@@ -13,10 +13,18 @@
 <header></header>
 <main>
 <section class="container">
-    <article class="header">Header</article>
-    <article class="sidebar">Sidebar</article>
-    <article class="content">Content</article>
-    <article class="footer">Footer</article>
+    <article class="header">(iets)
+        
+        
+
+    </article>
+
+    <article class="sidebar">vacature verzenden en uploaden </article>
+
+    <article class="content">beschikbare banen
+        
+    </article>
+    <article class="footer">gegevens en opsturen</article>
   </section>
 </main>
 <?php include 'includes/footer.php'; ?>

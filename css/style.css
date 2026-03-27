@@ -2,12 +2,14 @@
     margin: 0;   
     padding: 0;
 }
+html {filter: grayscale(100%)};
 :root[data-mode='light']{
     --bgColor: #ffffff;
     --bgSecond: rgb(0, 0, 0);
     --bgThird: black;
     --accent: black;
     --textColor: black;
+    --borderColor: black;
 
 }
 :root[data-mode='dark']{
@@ -16,8 +18,10 @@
     --bgThird: rgb(255, 255, 255);
     --accent: rgb(255, 255, 255);
     --textColor: rgb(255, 255, 255);
+    --borderColor: rgb(255, 255, 255);
 
 }
+
 .hamburger {
  
   background-image: url("../img/menu.png");
@@ -55,32 +59,46 @@ html{
 .container {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 10vh 40vh 40vh 10vh;
+    grid-template-rows: 10vh 70vh 10vh 10vh;
     grid-template-areas:
       "header"
       "content"
       "sidebar"
       "footer";
+    
   }
 
 .header {
     grid-area: header;
-    background-color: #847070;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    
   }
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #534242;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
   }
 
 .content {
     grid-area: content;
-    background-color: #e3bdbd;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+   border: solid black 2px;
+   border-color: var(--borderColor);
   }
 
 .footer {
     grid-area: footer;
-    background-color: #c0c0c0;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
   }
 
 .bestelknop{
@@ -90,6 +108,7 @@ html{
     margin-left: 5vw;
     border-radius: 20px;
     margin-bottom: 10vw;
+    border: var(--borderColor);
 
 }
 .offertekst{
@@ -150,7 +169,7 @@ html{
     background-color: #922C06;
 }
 #dropdown-menu {
-    background-color: #f4f4f4; 
+    background-color: var(--bgColor);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
@@ -170,7 +189,7 @@ html{
 }
 #dropdown-menu ul li a {
     text-decoration: none;  
-    color: #000000;           
+    color: var(--borderColor);        
     font-size: 40px;
     display: block;         
     padding: 10px 20px;     
@@ -192,8 +211,9 @@ html{
 
 .menu_items {
     padding: 10px;
-    background-color: #fff;
+    background-color: var(--bgColor);
     border: 1px solid #000000;
+    border-color: var(--borderColor);
     
     
     
@@ -218,13 +238,14 @@ html{
 }
 .searchbar {
     color: white;
-    background-color: white;
+    background-color: var(--bgColor);
     margin-left: 4vw;
     border: 2px solid rgb(0, 0, 0);
     width: 50vw;
     height: 24px;
     margin-top: 22px;
     border-radius: 15px;
+    border-color: var(--borderColor);
     
 }
 .darkmode {
@@ -278,6 +299,13 @@ hr {
 }
 
 
+
+
+
+
+
+
+
 /* tablets */
 @media (min-width: 577px) and (max-width: 991px) {
 .menu_heading {
@@ -288,7 +316,7 @@ hr {
     display: block;
 }
 #dropdown-menu {
-    background-color: #922C06;
+    background-color: var(--bgColor);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
@@ -308,16 +336,61 @@ hr {
 }
 #dropdown-menu ul li a {
     text-decoration: none;  
-    color: #000000;           
+    color: var(--borderColor);           
     font-size: 40px;
     display: block;         
     padding: 10px 20px;     
    
 }
+.container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 70vh 10vh 10vh;
+    grid-template-areas:
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+    
+  }
+
+.header {
+    grid-area: header;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    
+  }
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+  }
+
+.content {
+    grid-area: content;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+   border: solid black 2px;
+   border-color: var(--borderColor);
+  }
+
+.footer {
+    grid-area: footer;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+  }
 .menu_items {
     padding: 10px;
-    background-color: #fff;
+    background-color: var(--bgColor);
     border: 1px solid #eee;
+    border-color: var(--borderColor);
     
 }
 .titel{
@@ -346,13 +419,14 @@ hr {
 }
 .searchbar {
     color: white;
-    background-color: white;
+    background-color: var(--bgColor);
     margin-left: 4vw;
     border: 2px solid rgb(0, 0, 0);
     width: 50vw;
     height: 24px;
     margin-top: 22px;
     border-radius: 15px;
+    border-color: var(--borderColor);
     
 }
 #lightdark {
