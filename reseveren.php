@@ -10,7 +10,6 @@
 </head>
 <body>
 <?php include 'includes/header.php'; ?>
-
 <main>
     <section class="offer">
         <article class ="offertekst">
