@@ -34,7 +34,6 @@ nagerrecht</h1>
         <section class="fotoagenda">
             <img src="img/agenda.jpg">
         </section>
-
     
 </main>
 <?php include 'includes/footer.php'; ?>
