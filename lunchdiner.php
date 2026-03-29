@@ -106,7 +106,6 @@ if (event.target.classList.contains("menu_heading")) {
         
         
         
-        
         <style>
             .voet{
                 margin-top: 50vh;
