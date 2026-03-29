@@ -22,7 +22,6 @@
             <h2>Vrijdag: 11:00 - 21:30</h2>
             <h2>Zaterdag: 11:00 - 21:30</h2>
             <h2>Zondag: 11:00 - 21:30</h2>
-           
         </article>
 </section>
 </main>
