@@ -15,9 +15,7 @@
 <section class="container">
     <article class="header">(iets)
         
-        
-
-    </article>
+        </article>
 
     <article class="sidebar">vacature verzenden en uploaden </article>
 
