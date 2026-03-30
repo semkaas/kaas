@@ -32,7 +32,7 @@ if (event.target.classList.contains("menu_heading")) {
 </section>
 <section id="menu_info">
     <article class="menuCategory">
-        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Lunch (11:00-13:00)</h2>
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">dranken</h2>
         <article class="menu_items" style="display: none;">
             <p>Broodje met ei en geitenkaas - 9 euro</p>
             <p>Broodje met draadjesvlees en mayonaise - 13 euro</p>
