@@ -102,7 +102,12 @@ if (event.target.classList.contains("menu_heading")) {
     <article class="menuCategory">
         <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Nagerechten (17:00-22:00)</h2>
         <article class="menu_items" style="display: none;">
-            <h1></h1>
+            <h1>Apple Cobbler €7,50</h1>
+            <p>Warme appelkruimel met vanille ijs</p>
+            <h1>Chocolate Brownie €6,50</h1>
+            <p>Met pecannoten en karamelsaus</p>
+            <h1>Banana Foster €7,50</h1>
+            <p>Gekarameliseerde banaan met rum en vanille ijs</p>
         </article>
     </article>
         
