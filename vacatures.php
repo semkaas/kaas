@@ -17,10 +17,20 @@
         
         </article>
 
-    <article class="sidebar">vacature verzenden en uploaden </article>
-
-    <article class="content">beschikbare banen
+    <article class="sidebar">vacature verzenden en uploaden
         
+
+    </article>
+
+    <article class="Banen"><h2>Beschikbare banen</h2>
+         <h3>hoofdchef:</h3>
+         <h4> leidinggevende in de keuken, doet ook chef werk.</h4>
+         <br>
+         <h3>chef (fulltime) je werkt 38 uur per week als chef in de keuken</h3>
+         <h3>chef (parttime) je werkt als chef in de keuken. Je werkt regelmatig</h3>
+         <h3>ober: je ontvangt gasten en zorgt dat het eten naar de gasten gaat</h3>
+         <h3>afwasser: je wast af terwijl de keuken je extra afwas geeft</h3>
+         <h3>keukenhulp: je helpt de chefs met het klaarleggen en klaarmaken</h3>
     </article>
     <article class="footer">gegevens en opsturen</article>
   </section>
