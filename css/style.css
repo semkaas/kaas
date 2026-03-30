@@ -2,7 +2,7 @@
     margin: 0;   
     padding: 0;
 }
-html {filter: grayscale(100%)};
+
 :root[data-mode='light']{
     --bgColor: #ffffff;
     --bgSecond: rgb(0, 0, 0);
