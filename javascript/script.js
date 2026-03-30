@@ -1,6 +1,10 @@
+let lightanddark = document.getElementById("lightdark")
+document.documentElement.dataset.mode = localStorage.getItem("theme")
+
+
+
 function toggleMenu() {
     const menu = document.getElementById('dropdown-menu');
-    // Toggle voegt de class toe als hij er niet is, en haalt hem weg als hij er wel is
     menu.classList.toggle('open');
 }
 
@@ -17,11 +21,19 @@ function toggleMenu() {
 //     }
 // }
 // ham.addEventListener('click', showOrHideNav);
-// // function switchMode(){
-// //     if (document.documentElement.dataset.mode = 'dark'){
-// //         document.docu
-// //     }
-// // }
+function switchMode(){
+    if(document.documentElement.dataset.mode != "dark"){
+       document.documentElement.dataset.mode = 'dark';
+       localStorage.setItem("theme", "dark")
+}
+else{
+    document.documentElement.dataset.mode = "light"
+    localStorage.setItem("theme", "light")
+}
+    
+}
 
-// // document.element
-// // lightdark.addEventListener('click', switchMode)
+// document.element
+lightanddark.addEventListener('click', switchMode);
+// (document.documentElement.dataset.mode = 'dark'){
+//         document.docu

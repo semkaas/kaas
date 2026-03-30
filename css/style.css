@@ -2,14 +2,26 @@
     margin: 0;   
     padding: 0;
 }
-/* :root[data-mode='dark']{
-    --bgColor: black;
-    --bgSecond: rgb(255, 0, 0);
-    --bgColor: black;
-    --bgColor: black;
-    --bgColor: black;
+html {filter: grayscale(100%)};
+:root[data-mode='light']{
+    --bgColor: #ffffff;
+    --bgSecond: rgb(0, 0, 0);
+    --bgThird: black;
+    --accent: black;
+    --textColor: black;
+    --borderColor: black;
 
-} */
+}
+:root[data-mode='dark']{
+    --bgColor: rgb(0, 0, 0);
+    --bgSecond: rgb(255, 255, 255);
+    --bgThird: rgb(255, 255, 255);
+    --accent: rgb(255, 255, 255);
+    --textColor: rgb(255, 255, 255);
+    --borderColor: rgb(255, 255, 255);
+
+}
+
 .hamburger {
  
   background-image: url("../img/menu.png");
@@ -18,7 +30,10 @@
   
 }
 
-
+html{
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+}
 /* telefoon  767.9*/
 .voet{
     background-color: gray;
@@ -34,18 +49,127 @@
 .banner {
     background-color: #343434;
     max-height: 73px;
-    max-width: auto;
+    width: 100vw;
     display: flex;
 }
 .hamburgermenu > {
     text-decoration: none;
 
 }
+.container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 70vh 10vh 10vh;
+    grid-template-areas:
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+    
+  }
+
+.header {
+    grid-area: header;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    
+  }
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+  }
+
+.content {
+    grid-area: content;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+   border: solid black 2px;
+   border-color: var(--borderColor);
+  }
+
+.footer {
+    grid-area: footer;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+  }
+
+.bestelknop{
+    background-color: #19ee3c;
+    border: solid black 3px;
+    width: 90vw;
+    margin-left: 5vw;
+    border-radius: 20px;
+    margin-bottom: 10vw;
+    border: var(--borderColor);
+
+}
+.offertekst{
+    background-color: #922C06;
+    border: solid black 3px;
+
+}
+.fotoagenda{
+    width: 100vw;
+    margin-bottom: 10vh;
+}
+.fotoagenda > img{
+    width: 100vw;
+    
+}
+.foto1{
+    margin-top: 3vh;
+    margin-left: 6vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+
+
+    width: 40vw;
+    height: auto;
+}
+.foto1 > img{
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 40vw;
+    height: auto;
+}
+#lightdark {
+    
+    width: 35px;
+    height: 100%;
+    margin-top: 22px;
+    margin-left: 10vw;
+}
+.offerfoto{
+    display: flex;
+}
+.foto2{
+    
+    width: 40vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+}
+.foto2 > img{
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 40vw;
+    height: auto;
+}
 .hamburgermenu{
     background-color: #922C06;
 }
 #dropdown-menu {
-    background-color: #f4f4f4; 
+    background-color: var(--bgColor);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
@@ -65,7 +189,7 @@
 }
 #dropdown-menu ul li a {
     text-decoration: none;  
-    color: #000000;           
+    color: var(--borderColor);        
     font-size: 40px;
     display: block;         
     padding: 10px 20px;     
@@ -87,8 +211,9 @@
 
 .menu_items {
     padding: 10px;
-    background-color: #fff;
+    background-color: var(--bgColor);
     border: 1px solid #000000;
+    border-color: var(--borderColor);
     
     
     
@@ -113,13 +238,14 @@
 }
 .searchbar {
     color: white;
-    background-color: white;
+    background-color: var(--bgColor);
     margin-left: 4vw;
     border: 2px solid rgb(0, 0, 0);
     width: 50vw;
     height: 24px;
     margin-top: 22px;
     border-radius: 15px;
+    border-color: var(--borderColor);
     
 }
 .darkmode {
@@ -140,12 +266,17 @@
     font-size: 30px;
 }
 .deal1 > img {
-    max-width: 100vw;
+    width: 100vw;
     border: 1px solid black;
     border-radius: 30px;
 }
 .deal2 {
     font-size: 22px;
+}
+.deal2 > img {
+    width: 100vw;
+    border: 1px solid black;
+    border-radius: 30px;
 }
 hr {
     margin-top: 20px;
@@ -186,6 +317,13 @@ hr {
 
 
 
+
+
+
+
+
+
+
 /* tablets */
 @media (min-width: 577px) and (max-width: 991px) {
 .menu_heading {
@@ -196,7 +334,7 @@ hr {
     display: block;
 }
 #dropdown-menu {
-    background-color: #922C06;
+    background-color: var(--bgColor);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
@@ -216,16 +354,61 @@ hr {
 }
 #dropdown-menu ul li a {
     text-decoration: none;  
-    color: #000000;           
+    color: var(--borderColor);           
     font-size: 40px;
     display: block;         
     padding: 10px 20px;     
    
 }
+.container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 70vh 10vh 10vh;
+    grid-template-areas:
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+    
+  }
+
+.header {
+    grid-area: header;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    
+  }
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+  }
+
+.content {
+    grid-area: content;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+   border: solid black 2px;
+   border-color: var(--borderColor);
+  }
+
+.footer {
+    grid-area: footer;
+    background-color: var(--bgColor);
+    color: var(--bgSecond);
+    border: solid black 2px;
+    border-color: var(--borderColor);
+  }
 .menu_items {
     padding: 10px;
-    background-color: #fff;
+    background-color: var(--bgColor);
     border: 1px solid #eee;
+    border-color: var(--borderColor);
     
 }
 .titel{
@@ -244,7 +427,7 @@ hr {
 .banner {
     background-color: #343434;
     max-height: 73px;
-    max-width: 100vw;
+    width: 100vw;
     display: flex;
 }
 .logo > img{
@@ -254,19 +437,20 @@ hr {
 }
 .searchbar {
     color: white;
-    background-color: white;
+    background-color: var(--bgColor);
     margin-left: 4vw;
     border: 2px solid rgb(0, 0, 0);
     width: 50vw;
     height: 24px;
     margin-top: 22px;
     border-radius: 15px;
+    border-color: var(--borderColor);
     
 }
-.darkmode {
-    background-color: black;
+#lightdark {
+    
     width: 35px;
-    height: 35px;
+    height: 100%;
     margin-top: 22px;
     margin-left: 10vw;
 }
@@ -276,16 +460,27 @@ hr {
     width: 10vw;
     height: 7vh;
     margin-top: 5px;
-    margin-left: 1vw;
+    margin-left: 10vw;
+}
+.hamburger > img{
+    height: 100%;
+    
 }
 .deal1 {
     font-size: 30px;
 }
 .deal1 > img {
-    max-width: 100vw;
+    width: 100vw;
+    border: 1px solid black;
+    border-radius: 30px;
 }
 .deal2 {
     font-size: 22px;
+}
+.deal2 > img {
+    width: 100vw;
+    border: 1px solid black;
+    border-radius: 30px;
 }
 hr {
     margin-top: 20px;
