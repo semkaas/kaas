@@ -12,9 +12,30 @@
 <?php include 'includes/header.php'; ?>
 <header></header>
 <main>
-    <section>
-        <article class="Locatie">
-            <h1>Locatie</h1>
+    <section class="Tijden">
+        <article>
+            <h1>Openings Tijden:</h1>
+            <br>
+            <h2>Ma: 12:00 - 21:00 </h2>
+            <br>
+            <h2>Di: 11:00 - 22:00 </h2>
+            <br>
+            <h2>Wo: 11:00 - 22:00 </h2>
+            <br>
+            <h2>Do: 11:00 - 22:00 </h2>
+            <br>
+            <h2>Vr: 11:00 - 22:00 </h2>
+            <br>
+            <h2>Za: 11:00 - 22:00 </h2>
+            <br>
+            <h2>Zo: 11:00 - 22:00 </h2>
+            
+
+        </article>
+    </section>
+    <section class="Locatie">
+            <h1>Locatie:</h1>
+            <img src="img/ZoetermeerLocatie.png" alt="Locatie">
         </article>
     </section>
  
