@@ -74,7 +74,7 @@ html{
 }
 .font-controls{
     
-    background-color: var(--bgColor);
+    background-color: transparent;
     font-style: var(--bgThird);
 }
 .button-size1{
@@ -82,7 +82,7 @@ html{
     height: 44px;
     margin-left: 3vw;
     font-size: 2.0rem;
-    background-color: red;
+    background-color: grey;
     
 }
 .button-size2{
@@ -90,10 +90,10 @@ html{
     height: 44px;
     margin-left: 3vw;
     font-size: 2.0rem;
-    background-color: green;
+    background-color: grey;
     
 }
-.hamburgermenu > {
+.hamburgermenu{
     text-decoration: none;
 
 }
@@ -304,11 +304,15 @@ html{
 }
 .hamburger {
     background-color: #922C06;
-    width: 13vw;
-    height: 7vh;
-    margin-top: 5px;
-    margin-left: 1vw;
+    position: absolute;
+    left: 82vw;
+    height: 8vh;
+    width: 15vw;
 }
+.hamburger > img{
+    width: 100%;
+}
+
 .deal1 {
     font-size: 30px;
     margin-left: 5vw;
@@ -477,7 +481,7 @@ hr {
 }
 .banner {
     background-color: #343434;
-    max-height: 73px;
+    max-height: 85px;
     width: 100vw;
     display: flex;
 }

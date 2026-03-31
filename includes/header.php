@@ -4,10 +4,14 @@
         <article class = "logo">
             <img src="img/logo_vlam_en_vlees.png" alt="Logo Vlam en Vlees">
         </article>
-        <article class = "searchbar">
-            <h1></h1>
+        <article class="font-controls">
+            <button class="button-size1" onclick="changeFontSize(-1)">
+            A- </button>
+  
+            <button class="button-size2" onclick="changeFontSize(1)">
+            A+ </button>
         </article>
-        <figure id="lightdark">&#127765</figure>
+            <figure id="lightdark">&#127765</figure>
         </article>
         <article class = "hamburger" onclick="toggleMenu()">
             <h1></h1>
