@@ -58,7 +58,7 @@ html{
 .voet{
     background-color: gray;
     width: 100vw;
-    height: 250px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,14 +68,15 @@ html{
 @media (max-width: 576px) {
 .banner {
     background-color: #343434;
-    max-height: 73px;
+    max-height: 80px;
     width: 100vw;
     display: flex;
 }
 .font-controls{
-    
+    margin-top: 2vh;
     background-color: transparent;
     font-style: var(--bgThird);
+    margin-left: 7vw;
 }
 .button-size1{
     width: 44px;
@@ -97,10 +98,20 @@ html{
     text-decoration: none;
 
 }
+
 .tekstvlamvlees{
     width: 90vw;
+    margin-left: 3vw;
+    background-color: transparent;
+    
+    font-size: 1.3rem;
+    padding-bottom: 5vh;
+}
+.voettekst{
+    max-width: 95vw;
     margin-left: 5vw;
-    text-decoration-line: inherit;
+    background-color: transparent;
+    
     font-size: 1.3rem;
 }
 .container {
@@ -305,7 +316,7 @@ html{
 .hamburger {
     background-color: #922C06;
     position: absolute;
-    left: 82vw;
+    left: 85vw;
     height: 8vh;
     width: 15vw;
 }
