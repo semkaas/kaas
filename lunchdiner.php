@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-mode="light">
+<html lang="nl" data-mode="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,12 +23,13 @@ if (event.target.classList.contains("menu_heading")) {
 <body>
 <?php include 'includes/header.php'; ?>
 <main>
+
 <section class="titel">
-    <h1>menukaart<h1>
+    <h2>menukaart<h2>
 </section>
 
 <section class="cashback">
-    <h1>100% geld terug<h1>
+    <h2>100% geld terug<h2>
 </section>
 <section id="menu_info">
     <article class="menuCategory">
@@ -110,7 +111,7 @@ if (event.target.classList.contains("menu_heading")) {
             <p>Gekarameliseerde banaan met rum en vanille ijs</p>
         </article>
     </article>
-        
+</section>      
         
         
         
