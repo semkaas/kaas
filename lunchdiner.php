@@ -25,11 +25,11 @@ if (event.target.classList.contains("menu_heading")) {
 <main>
 
 <section class="titel">
-    <h1>menukaart<h1>
+    <h2>menukaart<h2>
 </section>
 
 <section class="cashback">
-    <h1>100% geld terug<h1>
+    <h2>100% geld terug<h2>
 </section>
 <section id="menu_info">
     <article class="menuCategory">
