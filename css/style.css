@@ -22,6 +22,26 @@
 
 }
 
+p {
+  font-size: 1rem; 
+}
+:root {
+  --global-scale: 1;
+}
+
+body {
+  
+  font-size: calc(16px * var(--global-scale));
+}
+
+h1 {
+  font-size: calc(32px * var(--global-scale));
+}
+
+html {
+  font-size: var(--main-font-size);
+}
+
 .hamburger {
  
   background-image: url("../img/menu.png");
@@ -52,9 +72,36 @@ html{
     width: 100vw;
     display: flex;
 }
+.font-controls{
+    
+    background-color: var(--bgColor);
+    font-style: var(--bgThird);
+}
+.button-size1{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: red;
+    
+}
+.button-size2{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: green;
+    
+}
 .hamburgermenu > {
     text-decoration: none;
 
+}
+.tekstvlamvlees{
+    width: 90vw;
+    margin-left: 5vw;
+    text-decoration-line: inherit;
+    font-size: 1.3rem;
 }
 .container {
     display: grid;
@@ -228,7 +275,7 @@ html{
     background-color: limegreen;
     justify-items: center;
     
-    height: 3vh;
+    height: 4vh;
     font-size: 12px;
 }
 .logo > img{
@@ -264,17 +311,21 @@ html{
 }
 .deal1 {
     font-size: 30px;
+    margin-left: 5vw;
+    width: 90vw;
 }
 .deal1 > img {
-    width: 100vw;
+    width: 100%;
     border: 1px solid black;
     border-radius: 30px;
 }
 .deal2 {
     font-size: 22px;
+    margin-left: 5vw;
+    width: 90vw
 }
 .deal2 > img {
-    width: 100vw;
+    width: 100%;
     border: 1px solid black;
     border-radius: 30px;
 }

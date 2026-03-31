@@ -37,3 +37,11 @@ else{
 lightanddark.addEventListener('click', switchMode);
 // (document.documentElement.dataset.mode = 'dark'){
 //         document.docu
+function changeFontSize(delta) {
+  const root = document.documentElement;
+  // Haal de huidige schaal op (standaard 1)
+  const currentScale = parseFloat(getComputedStyle(root).getPropertyValue('--global-scale'));
+  
+  // Verhoog of verlaag de schaal (bijv. met 0.1 per klik)
+  root.style.setProperty('--global-scale', currentScale + (delta * 0.1));
+}

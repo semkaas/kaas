@@ -13,7 +13,7 @@
             <h1></h1>
         </article>
         
-        </div>
+       
     </section>
             
             <nav id="dropdown-menu" class="menu-hidden">
