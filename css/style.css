@@ -52,13 +52,8 @@ html {
   font-size: var(--main-font-size);
 }
 
-.hamburger {
- 
-  background-image: url("../img/menu.png");
-  background-size: cover;  
-  background-position: center; 
-  
-}
+
+
 
 html{
     background-color: var(--bgColor);
@@ -73,6 +68,14 @@ html{
     align-items: center;
     justify-content: center;
 }
+.hamburger {
+ 
+  background-image: url("../img/menu.png");
+  background-size: cover;  
+  background-position: center; 
+  
+}
+
 
 
 @media (max-width: 576px) {
@@ -233,6 +236,9 @@ html{
     width: 40vw;
     height: auto;
 }
+.wekelijkse{
+    margin-left: 10vw;
+}
 .hamburgermenu{
     background-color: #922C06;
 }
@@ -346,7 +352,7 @@ html{
 }
 .deal2 {
     font-size: 22px;
-    margin-left: 5vw;
+    margin-left: 1vw;
     width: 90vw
 }
 .deal2 > img {
@@ -389,6 +395,9 @@ hr {
     justify-items: center;
     
 }
+.ipadnav{
+    display: none;
+}
 }
 
 
@@ -400,15 +409,143 @@ hr {
 
 
 
-/* tablets */
-@media (min-width: 577px) and (max-width: 991px) {
+/* tablets landscape*/
+@media (min-width: 992px){
+.banner {
+    background-color: #343434;
+    max-height: 80px;
+    width: 100vw;
+    display: flex;
+}
+.wekelijkse{
+    background-color: #343434;   
+}
+.wekelijkse > h1{
+    font-size: 60px;
+    margin-left: 30vw;
+}
+.titel{
+    background-color: #343434;   
+}
+.titel > h2{
+    font-size: 60px;
+    margin-left: 35vw;
+}
+.logo > img{
+    max-height: 73px;
+    max-width: auto;
+
+}
+.font-controls{
+    margin-top: 2vh;
+    background-color: transparent;
+    font-style: var(--bgThird);
+    margin-left: 60vw;
+}
+.button-size1{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: grey;
+    
+}
+.button-size2{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: grey;
+    
+}
+#lightdark {
+    
+    width: 35px;
+    height: 100%;
+    margin-top: 22px;
+    margin-left: 14vw;
+}
+.ipadnav{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
+    background-color: #922C06;
+    
+	justify-content:space-around;
+    justify-items: center;
+}
+.ipadnav > a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.7rem;
+}
+#dropdown-menu{
+    display: none;
+}
+.deals{
+    display: flex;
+    flex-direction: column;
+}
+.deal1 > img{
+    width: 50vw;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+.deal1{
+    display: flex;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    
+    
+}
+.deal2 > img{
+    width: 50vw;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+.deal2{
+    display: flex;
+    margin-left: 1vw;
+    margin-bottom: 2cap;
+    
+    
+}
+.deal2 > h1{
+    margin-left: 4vw;
+    
+    
+}
+.deal1 > h1{
+    margin-left: 4vw;
+    
+    
+}
+hr {
+  
+   
+    max-width: 90vw;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    height: 4px;
+    background-color: var(--accent)
+}
+.tekstvlamvlees{
+    margin-bottom: 2vh;
+    width: 90vw;
+    margin-left: 3vw;
+    background-color: transparent;
+    
+}
+
+}
 
 
 /* desktops */
 @media (min-width: 1200px) {
     
     html {
-        
+        background-color: #000000;
     }
-}
 }
