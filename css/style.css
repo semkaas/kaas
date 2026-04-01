@@ -72,8 +72,7 @@ html{
     grid-area: header;
     background-color: var(--bgColor);
     color: var(--bgSecond);
-    border: solid black 2px;
-    border-color: var(--borderColor);
+    
     
   }
 
@@ -81,8 +80,7 @@ html{
     grid-area: sidebar;
     background-color: var(--bgColor);
     color: var(--bgSecond);
-    border: solid black 2px;
-    border-color: var(--borderColor);
+    
   }
 
 .content {
@@ -97,8 +95,7 @@ html{
     grid-area: footer;
     background-color: var(--bgColor);
     color: var(--bgSecond);
-    border: solid black 2px;
-    border-color: var(--borderColor);
+    
   }
 
 .bestelknop{
@@ -315,10 +312,21 @@ hr {
 }
 }
 
-.Banen {
+.Banen > article {
     border: #000000 solid 2px;
+    
 }
 
+.Banen > .bbqfoto {
+    height: 170px;
+    width: 430px;
+
+}
+
+.Gegevens {
+    border:#000000 solid 10px;
+    
+}
 
 
 

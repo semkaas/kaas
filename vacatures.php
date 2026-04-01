@@ -13,28 +13,90 @@
 <header></header>
 <main>
 <section class="container">
-    <article class="header">(iets)
-        
-        </article>
+  
 
-    <article class="sidebar">vacature verzenden en uploaden
-        
-
-    </article>
-
-    <article class="Banen"><h2>Beschikbare banen</h2>
-         <h3>hoofdchef:</h3>
-         <h4> leidinggevende in de keuken, doet ook chef werk.</h4>
+    <article class="Banen">
+         <img src="img/bbqFOTO.jpg" alt="Foto van Bbq" class="bbqfoto">
+         <h2>Beschikbare banen:</h2>
          <br>
-         <h3>chef (fulltime) je werkt 38 uur per week als chef in de keuken</h3>
-         <h3>chef (parttime) je werkt als chef in de keuken. Je werkt regelmatig</h3>
-         <h3>ober: je ontvangt gasten en zorgt dat het eten naar de gasten gaat</h3>
-         <h3>afwasser: je wast af terwijl de keuken je extra afwas geeft</h3>
-         <h3>keukenhulp: je helpt de chefs met het klaarleggen en klaarmaken</h3>
+
+         <article>
+         <h3>hoofdchef:</h3>
+         <h3> leidinggevende in de keuken, doet ook chef werk.</h3>
+         </article>
+
+         <br>
+
+         <article>
+         <h3>chef (fulltime):</h3>
+         <h3>je werkt 38 uur per week als chef in de keuken</h3>
+         </article>
+        
+         <br>
+         
+         <article>
+         <h3>chef (parttime):</h3>
+         <h3>je werkt als chef in de keuken. Je werkt regelmatig</h3>
+         </article>
+
+         <br>
+
+         <article>
+         <h3>ober:</h3>
+         <h3>je ontvangt gasten en zorgt dat het eten naar de gasten gaat</h3>
+         </article>
+
+         <br>
+
+         <article>
+         <h3>afwasser:</h3>
+         <h3>je wast af terwijl de keuken je extra afwas geeft</h3>
+         </article>
+
+         <br>
+
+         <article>
+         <h3>keukenhulp:</h3>
+         <h3>je helpt de chefs met het klaarleggen en klaarmaken</h3>
+         </article>
+
+
+
+         <br>
+         <br>
+         <br>
+         <br>
+            
+
+         <article class="Gegevens">
+         <h3>Gegevens:</h3>
+         <p>(Zet hier welke baan je wilt en waarom je geschikt ervoor bent.)</p>
+         <br>
+         <br>
+         <br>
+         <br>
+         <h2>CV Uploaden:</h2>
+         <br>
+         <input type="file" class="cvUpload" name="cvUpload">
+         <br>
+         <br>
+         
+         
+         </article>
+
+         <br>
+
+         <img src="img/ChefVlamEnVlees.png" alt="Chef" class="bbqfoto">
+
     </article>
-    <article class="footer">gegevens en opsturen</article>
+
   </section>
 </main>
+        <style>
+            .voet{
+                margin-top: 15vh;
+            }
+        </style>
 <?php include 'includes/footer.php'; ?>
 </body>
 </html>
