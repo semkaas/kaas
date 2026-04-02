@@ -431,6 +431,30 @@ hr {
     font-size: 60px;
     margin-left: 35vw;
 }
+.tijdenipad{
+    
+    background-color: #343434;   
+}
+.tijdenipad > h1{
+    font-size: 60px;
+    margin-left: 30vw;
+}
+.titelres{
+    
+    background-color: #343434;   
+}
+.titelres > h1{
+    font-size: 60px;
+    margin-left: 35vw;
+}
+.titelvac{
+    
+    background-color: #343434;   
+}
+.titelvac > h1{
+    font-size: 60px;
+    margin-left: 35vw;
+}
 .logo > img{
     max-height: 73px;
     max-width: auto;
@@ -539,7 +563,10 @@ hr {
     
 }
 
+
 }
+
+
 
 
 /* desktops */

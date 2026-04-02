@@ -10,6 +10,9 @@
 </head>
 <body>
 <?php include 'includes/header.php'; ?>
+<article class="titelvac">
+    <h1>Vacatures</h1>
+</article>
 <header></header>
 <main>
 <section class="container">

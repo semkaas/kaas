@@ -15,7 +15,10 @@
 
     <section class="Tijden">
         <article>
-            <h1>Openings Tijden:</h1>
+            <article class="tijdenipad">
+                <h1>Openingstijden</h1>
+            </article>
+            
             <br>
             <h2>Ma: 12:00 - 21:00 </h2>
             <br>
