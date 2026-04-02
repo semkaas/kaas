@@ -20,7 +20,7 @@
        
     </section>
             
-            <nav id="dropdown-menu" class="menu-hidden">
+<nav id="dropdown-menu" class="menu-hidden">
         <ul class="hamburgermenu">
             <li><a href="index.php">Home</a></li>
             <li><a href="lunchdiner.php">lunch en dinner</a></li>
@@ -30,4 +30,15 @@
         </ul>
     
 </nav>
+<article class="ipadnav">
+       
+        <a href="index.php">Home</a>
+        <a href="lunchdiner.php">lunch en dinner</a>
+        <a href="navigatie.php">locatie</a>
+        <a href="reseveren.php">reseveren</a>
+        <a href="vacatures.php">bij ons werken</a>
+        
+    
+</article>
+
 </header>

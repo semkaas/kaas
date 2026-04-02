@@ -11,7 +11,10 @@
 <body>
 <?php include 'includes/header.php'; ?>
 <main>
-
+    <article class="titelres">
+        <h1>Reseveren</h1>
+    </article>
+    
     <section class="offer">
         <article class ="offertekst">
  

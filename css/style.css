@@ -52,13 +52,8 @@ html {
   font-size: var(--main-font-size);
 }
 
-.hamburger {
- 
-  background-image: url("../img/menu.png");
-  background-size: cover;  
-  background-position: center; 
-  
-}
+
+
 
 html{
     background-color: var(--bgColor);
@@ -73,6 +68,14 @@ html{
     align-items: center;
     justify-content: center;
 }
+.hamburger {
+ 
+  background-image: url("../img/menu.png");
+  background-size: cover;  
+  background-position: center; 
+  
+}
+
 
 
 @media (max-width: 576px) {
@@ -230,6 +233,9 @@ html{
     width: 40vw;
     height: auto;
 }
+.wekelijkse{
+    margin-left: 10vw;
+}
 .hamburgermenu{
     background-color: #922C06;
 }
@@ -343,7 +349,7 @@ html{
 }
 .deal2 {
     font-size: 22px;
-    margin-left: 5vw;
+    margin-left: 1vw;
     width: 90vw
 }
 .deal2 > img {
@@ -386,6 +392,9 @@ hr {
     justify-items: center;
     
 }
+.ipadnav{
+    display: none;
+}
 }
 
 .Banen > article {
@@ -411,127 +420,77 @@ hr {
 
 
 
-/* tablets */
-@media (min-width: 577px) and (max-width: 991px) {
-.menu_heading {
-    background-color: grey;
-    padding: 15px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    display: block;
-}
-#dropdown-menu {
-    background-color: var(--bgColor);
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.4s ease-out;
-    width: 100%;
-}
-
-
-#dropdown-menu.open {
-    max-height: 360px;
-    border-bottom: 2px solid #ccc;
-}
-
-#dropdown-menu ul {
-    list-style: none;
-    padding: 20px;
-    margin: 0;
-}
-#dropdown-menu ul li a {
-    text-decoration: none;  
-    color: var(--borderColor);           
-    font-size: 40px;
-    display: block;         
-    padding: 10px 20px;     
-   
-}
-.container {
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 10vh 70vh 10vh 10vh;
-    grid-template-areas:
-      "header"
-      "content"
-      "sidebar"
-      "footer";
-    
-  }
-
-.header {
-    grid-area: header;
-    background-color: var(--bgColor);
-    color: var(--bgSecond);
-    border: solid black 2px;
-    border-color: var(--borderColor);
-    
-  }
-
-.sidebar {
-    grid-area: sidebar;
-    background-color: var(--bgColor);
-    color: var(--bgSecond);
-    border: solid black 2px;
-    border-color: var(--borderColor);
-  }
-
-.content {
-    grid-area: content;
-    background-color: var(--bgColor);
-    color: var(--bgSecond);
-   border: solid black 2px;
-   border-color: var(--borderColor);
-  }
-
-.footer {
-    grid-area: footer;
-    background-color: var(--bgColor);
-    color: var(--bgSecond);
-    border: solid black 2px;
-    border-color: var(--borderColor);
-  }
-.menu_items {
-    padding: 10px;
-    background-color: var(--bgColor);
-    border: 1px solid #eee;
-    border-color: var(--borderColor);
-    
-}
-.titel{
-    background-color: #922C06;
-    justify-items: center;
-    font-size: 25px;
-    height: 6vh;
-}
-.cashback{
-    background-color: limegreen;
-    justify-items: center;
-    
-    height: 3vh;
-    font-size: 12px;
-}
+/* tablets landscape*/
+@media (min-width: 992px){
 .banner {
     background-color: #343434;
-    max-height: 85px;
+    max-height: 80px;
     width: 100vw;
     display: flex;
+}
+.wekelijkse{
+    background-color: #343434;   
+}
+.wekelijkse > h1{
+    font-size: 60px;
+    margin-left: 30vw;
+}
+.titel{
+    background-color: #343434;   
+}
+.titel > h2{
+    font-size: 60px;
+    margin-left: 35vw;
+}
+.tijdenipad{
+    
+    background-color: #343434;   
+}
+.tijdenipad > h1{
+    font-size: 60px;
+    margin-left: 30vw;
+}
+.titelres{
+    
+    background-color: #343434;   
+}
+.titelres > h1{
+    font-size: 60px;
+    margin-left: 35vw;
+}
+.titelvac{
+    
+    background-color: #343434;   
+}
+.titelvac > h1{
+    font-size: 60px;
+    margin-left: 35vw;
 }
 .logo > img{
     max-height: 73px;
     max-width: auto;
 
 }
-.searchbar {
-    color: white;
-    background-color: var(--bgColor);
-    margin-left: 4vw;
-    border: 2px solid rgb(0, 0, 0);
-    width: 50vw;
-    height: 24px;
-    margin-top: 22px;
-    border-radius: 15px;
-    border-color: var(--borderColor);
+.font-controls{
+    margin-top: 2vh;
+    background-color: transparent;
+    font-style: var(--bgThird);
+    margin-left: 60vw;
+}
+.button-size1{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: grey;
+    
+}
+.button-size2{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: grey;
     
 }
 #lightdark {
@@ -539,62 +498,92 @@ hr {
     width: 35px;
     height: 100%;
     margin-top: 22px;
-    margin-left: 10vw;
+    margin-left: 14vw;
 }
-
-.hamburger {
+.ipadnav{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
     background-color: #922C06;
-    width: 10vw;
-    height: 7vh;
-    margin-top: 5px;
-    margin-left: 10vw;
+    
+	justify-content:space-around;
+    justify-items: center;
 }
-.hamburger > img{
-    height: 100%;
+.ipadnav > a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.7rem;
+}
+#dropdown-menu{
+    display: none;
+}
+.deals{
+    display: flex;
+    flex-direction: column;
+}
+.deal1 > img{
+    width: 50vw;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+.deal1{
+    display: flex;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    
     
 }
-.deal1 {
-    font-size: 30px;
-}
-.deal1 > img {
-    width: 100vw;
-    border: 1px solid black;
+.deal2 > img{
+    width: 50vw;
+    border: solid black 1px;
     border-radius: 30px;
 }
-.deal2 {
-    font-size: 22px;
+.deal2{
+    display: flex;
+    margin-left: 1vw;
+    margin-bottom: 2cap;
+    
+    
 }
-.deal2 > img {
-    width: 100vw;
-    border: 1px solid black;
-    border-radius: 30px;
+.deal2 > h1{
+    margin-left: 4vw;
+    
+    
+}
+.deal1 > h1{
+    margin-left: 4vw;
+    
+    
 }
 hr {
-    margin-top: 20px;
+  
    
     max-width: 90vw;
     margin-left: 5vw;
+    margin-bottom: 2vh;
     height: 4px;
-    background-color: black;
+    background-color: var(--accent)
+}
+.tekstvlamvlees{
+    margin-bottom: 2vh;
+    width: 90vw;
+    margin-left: 3vw;
+    background-color: transparent;
+    
 }
 
-       
-      
+
 }
 
 
-/* laptops */
-@media (min-width: 992px) and (max-width: 1199px) {
-    html {
-       
-        
-    }
-}
-   
+
+
 /* desktops */
 @media (min-width: 1200px) {
     
     html {
-        
+        background-color: #000000;
     }
 }
