@@ -16,6 +16,7 @@ body{
     --accent: black;
     --textColor: black;
     --borderColor: black;
+    --backgroundColor: #c6c4c4;
 
 }
 :root[data-mode='dark']{
@@ -25,6 +26,7 @@ body{
     --accent: rgb(255, 255, 255);
     --textColor: rgb(255, 255, 255);
     --borderColor: rgb(255, 255, 255);
+    --backgroundColor: #343434;
 
 }
 
@@ -422,6 +424,18 @@ hr {
 
 /* tablets landscape*/
 @media (min-width: 992px){
+#menu_info{
+    display: flex;
+    flex-direction: column;
+    
+    
+    background-color: var(--backgroundColor);
+}
+#menu_info > h2{
+    background-color: var(--backgroundColor)
+    
+}
+
 .banner {
     background-color: #343434;
     max-height: 80px;
@@ -429,22 +443,29 @@ hr {
     display: flex;
 }
 .wekelijkse{
-    background-color: #343434;   
+    background-color: var(--backgroundColor)   
 }
 .wekelijkse > h1{
     font-size: 60px;
     margin-left: 30vw;
 }
 .titel{
-    background-color: #343434;   
+    background-color: var(--backgroundColor)  
 }
 .titel > h2{
     font-size: 60px;
     margin-left: 35vw;
 }
+.cashback{
+    background-color: #83e865;   
+}
+.cashback > h2{
+    font-size: 60px;
+    margin-left: 35vw;
+}
 .tijdenipad{
     
-    background-color: #343434;   
+    background-color: var(--backgroundColor) 
 }
 .tijdenipad > h1{
     font-size: 60px;
@@ -452,7 +473,7 @@ hr {
 }
 .titelres{
     
-    background-color: #343434;   
+    background-color: var(--backgroundColor)   
 }
 .titelres > h1{
     font-size: 60px;
@@ -460,7 +481,7 @@ hr {
 }
 .titelvac{
     
-    background-color: #343434;   
+    background-color: var(--backgroundColor)   
 }
 .titelvac > h1{
     font-size: 60px;
@@ -557,6 +578,9 @@ hr {
     
     
 }
+.menuCategory{
+    background-color: var(--backgroundColor)
+}
 hr {
   
    
@@ -573,6 +597,7 @@ hr {
     background-color: transparent;
     
 }
+
 
 
 }

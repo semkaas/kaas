@@ -11,7 +11,7 @@
 <body>
 <?php include 'includes/header.php'; ?>
 <article class="titelvac">
-    <h1>Vacatures</h1>
+    <h1>vacatures</h1>
 </article>
 <header></header>
 <main>

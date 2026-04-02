@@ -33,7 +33,7 @@ if (event.target.classList.contains("menu_heading")) {
 </section>
 <section id="menu_info">
     <article class="menuCategory">
-        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Dranken</h2>
+        <h2  style="background-color: grey" class="menu_heading" onclick="openOrCloseCategory(event)" position: absolute;>Dranken</h2>
         <article class="menu_items" style="display: none;">
             <h1>Frisdranken €2,75</h1>
             <p>Cola</p>
@@ -51,14 +51,14 @@ if (event.target.classList.contains("menu_heading")) {
     </article>
 
     <article class="menuCategory">
-        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Voorgerechten (17:00-22:00)</h2>
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)" style="background-color: grey" position: absolute;>Voorgerechten (17:00-22:00)</h2>
         <article class="menu_items" style="display: none;">
             <h1>BBQ Nacho's €9,50</h1> 
             <p>
-                Tortillachips met pulled pork, cheddar, jalapeños, BBQ-saus en zure room</p>
+                Tortillachips met pulled pork, cheddar,<br> jalapeños, BBQ-saus en zure room</p>
             <h1>Smoked Wings €8,50</h1> 
             <p>
-                Gerookte kippenvleugels met keuze uit: BBQ, Buffalo of Honey-Sriracha saus</p>
+                Gerookte kippenvleugels met keuze uit:<br> BBQ, Buffalo of Honey-Sriracha saus</p>
             <h1>Uienringen €6,50</h1> 
             <p>
                 Krokante uienringen met ranch dressing</p>
@@ -66,15 +66,15 @@ if (event.target.classList.contains("menu_heading")) {
 
     </article>
 
-    <article class="menuCategory">
-        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Hoofdgerechten (17:00-22:00)</h2>
+    <article class="menuCategory"   >
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)" style="background-color: grey" position: absolute;>Hoofdgerechten (17:00-22:00)</h2>
         <article class="menu_items" style="display: none;">
             <h1>Beef Brisket €24,50</h1> 
         <p>
-            14 uur lang gerookt rundvlees, gekruid met ons eigen rub</p>
+            14 uur lang gerookt rundvlees, gekruid <br>met ons eigen rub</p>
         <h1>Pulled Pork €19,50</h1> 
         <p>
-            Langzaam gegaard varkensvlees met BBQ-saus</p>
+            Langzaam gegaard varkensvlees <p>met BBQ-saus</p>
         <h1> baby back ribs </h1>
         <p>Halve rack €19,50</p>
         <p>Hele rack €28,50</p>
@@ -83,7 +83,7 @@ if (event.target.classList.contains("menu_heading")) {
         <p>Halve kip, langzaam gerookt met kruiden</p>
         <h1>The Pitmaster €32,50</h1>
         <p>Combinatie van brisket, pulled pork en ribs</p>
-        <h1>Family Feast 2-3 pers. €59,50</h1>
+        <h1>Family Feast <br>2-3 pers. €59,50</h1>
         <p>Selectie van al onze BBQ-specialiteiten</p>
         <h1>sides</h1>
         <h3>Mac 'n Cheese €4,50<h3>
@@ -100,8 +100,8 @@ if (event.target.classList.contains("menu_heading")) {
         </article>
     </article>
 
-    <article class="menuCategory">
-        <h2 class="menu_heading" onclick="openOrCloseCategory(event)">Nagerechten (17:00-22:00)</h2>
+    <article class="menuCategory" >
+        <h2 class="menu_heading" onclick="openOrCloseCategory(event)" style="background-color: grey" position: absolute;>Nagerechten (17:00-22:00)</h2>
         <article class="menu_items" style="display: none;">
             <h1>Apple Cobbler €7,50</h1>
             <p>Warme appelkruimel met vanille ijs</p>

@@ -16,7 +16,7 @@
     <section class="Tijden">
         <article>
             <article class="tijdenipad">
-                <h1>Openingstijden</h1>
+                <h1>openingstijden</h1>
             </article>
             
             <br>
