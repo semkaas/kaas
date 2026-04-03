@@ -97,7 +97,7 @@
 </main>
         <style>
             .voet{
-                margin-top: 15vh;
+                margin-top: 33vh;
             }
         </style>
 <?php include 'includes/footer.php'; ?>

@@ -612,3 +612,46 @@ hr {
         background-color: #000000;
     }
 }
+
+.logo > img{
+    max-height: 110px;
+    max-width: auto;
+
+}
+
+.banner {
+    background-color: #343434;
+    max-height: 130px;
+    width: 100vw;
+    display: flex;
+}
+
+
+.ipadnav{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
+    background-color: #922C06;
+    
+	justify-content:space-around;
+    justify-items: center;
+}
+
+.wekelijkse{
+    background-color: #ffffff;   
+}
+
+.deals{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.tekstvlamvlees{
+    background-color: white;
+    margin-bottom: 2vh;
+    width: 90vw;
+    margin-left: 3vw;
+    
+}
