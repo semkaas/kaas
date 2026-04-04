@@ -76,8 +76,10 @@
          <p>(Zet hier welke baan je wilt en waarom je geschikt ervoor bent.)</p>
          <br>
          <br>
-         <br>
-         <br>
+            <article class="motivatietext">
+                <input type="text" class="textveld" name="gegevens">
+            </article>
+            <br>
          <h2>CV Uploaden:</h2>
          <br>
          <input type="file" class="cvUpload" name="cvUpload">
@@ -95,11 +97,7 @@
 
   </section>
 </main>
-        <style>
-            .voet{
-                margin-top: 33vh;
-            }
-        </style>
+        
 <?php include 'includes/footer.php'; ?>
 </body>
 </html>

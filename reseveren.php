@@ -17,27 +17,25 @@
     
     <section class="offer">
         <article class ="offertekst">
- 
             <h1> WK feest deal -  tafel voor 2 vanaf 39,99$ per persoon
-voorgerecht+hoofdgerecht+
-nagerrecht</h1>
-        </section>
-        <section class="offerfoto">
-            </article>
-            <article class="foto1">
-                <img src="img/brownie.webp" alt="brownie foto">
-
-            </article>
-            <article class="foto2">
-                <img src="img/pulledpork.webp" alt="pulledpork">
-            </article>
-        </section>
-        <section class="bestelknop">
-            <h1>   hier resevering boeken</h1>
-        </section>
-        <section class="fotoagenda">
-            <img src="img/agenda.jpg">
-        </section>
+            voorgerecht+hoofdgerecht+
+            nagerrecht</h1>
+        </article>
+    </section>
+    <section class="offerfoto">     
+        <article class="foto1">
+            <img src="img/brownie.webp" alt="brownie foto">
+        </article>
+        <article class="foto2">
+            <img src="img/pulledpork.webp" alt="pulledpork">
+        </article>
+    </section>
+    <section class="bestelknop">
+        <h1>   hier resevering boeken</h1>
+    </section>
+    <section class="fotoagenda">
+        <img src="img/agenda.jpg">
+    </section>
     
 </main>
 <?php include 'includes/footer.php'; ?>

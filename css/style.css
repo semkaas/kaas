@@ -48,6 +48,9 @@ h1 {
 p {
   font-size: calc(18px * var(--global-scale));
 }
+h2 {
+  font-size: calc(26px * var(--global-scale));
+}
 
 
 html {
@@ -215,7 +218,8 @@ html{
     width: 35px;
     height: 100%;
     margin-top: 22px;
-    margin-left: 10vw;
+    margin-left: 5vw;
+    font-size: 1.3rem;
 }
 .offerfoto{
     display: flex;
@@ -277,7 +281,7 @@ html{
     margin: 5px 0;
     border: 1px solid #000000;
     display: block;
-    font-size: 30px;
+
     
 
 }
@@ -294,15 +298,15 @@ html{
 .titel{
     background-color: #922C06;
     justify-items: center;
-    font-size: 25px;
+    font-size: 2.5rem;
     height: 6vh;
 }
 .cashback{
     background-color: limegreen;
     justify-items: center;
     
-    height: 4vh;
-    font-size: 12px;
+    height: 5vh;
+    font-size: 1.8rem;
 }
 .logo > img{
     max-height: 73px;
@@ -376,24 +380,33 @@ hr {
     padding: 10px;
     font-size: 1.3rem;
 }
+.extras{
+    justify-items: center;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 10px; 
+    padding: 10px;
+    font-size: 1.3rem;
+}
 
 
-
-
-.Locatie > img {
-    width: 80%;
-    height: auto;
+.Locatie{
+    display: flex;
+    justify-items: center;
+    width: 90vw;
+    align-items: center;
+    
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+  
+  
+}
+.Locatie > img{
+    width: 100%;
     border: 1px solid black;
     border-radius: 30px;
-    margin-left: 10%;
-    
-  
-  
 }
-.Locatie{
-    justify-items: center;
-    
-}
+
 .ipadnav{
     display: none;
 }
@@ -480,7 +493,10 @@ hr {
 }
 .titelvac{
     
-    background-color: var(--backgroundColor)   
+    background-color: var(--backgroundColor);
+    border-bottom: solid black 2px;
+    border-color: var(--borderColor);
+     
 }
 .titelvac > h1{
     font-size: 60px;
@@ -641,7 +657,29 @@ hr {
     border-color: var(--borderColor);
     margin-bottom: 10vh;
 }
-
+.Banen > img{
+    width: 100vw;
+}
+.Banen{
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Banen > article{
+    border-bottom: solid black 3px;
+    border-color: var(--borderColor);
+}
+.textveld{
+    width: 90vw;
+    margin-left: 5vw;
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    border-radius: 20px;
+    height: 30vh;
+    background-color: var(--backgroundColor);
+}
 
 }
 
@@ -655,7 +693,7 @@ hr {
         background-color: #000000;
         background-color: var(--bgColor);
     }
-}
+
 
 .logo > img{
     max-height: 110px;
@@ -670,8 +708,9 @@ hr {
     display: flex;
 }
 
-deal1 > img{
+.deal1 > img{
     width: 50vw;
     border: solid black 1px;
     border-radius: 30px;
+}
 }
