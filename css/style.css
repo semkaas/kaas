@@ -610,6 +610,7 @@ hr {
     
     html {
         background-color: #000000;
+        background-color: var(--bgColor);
     }
 }
 
@@ -626,32 +627,8 @@ hr {
     display: flex;
 }
 
-
-.ipadnav{
-    display: flex;
-    width: 100vw;
-    justify-content: center;
-    
-    background-color: #922C06;
-    
-	justify-content:space-around;
-    justify-items: center;
-}
-
-.wekelijkse{
-    background-color: #ffffff;   
-}
-
-.deals{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-}
-
-.tekstvlamvlees{
-    background-color: white;
-    margin-bottom: 2vh;
-    width: 90vw;
-    margin-left: 3vw;
-    
+deal1 > img{
+    width: 50vw;
+    border: solid black 1px;
+    border-radius: 30px;
 }
