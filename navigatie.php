@@ -14,11 +14,11 @@
 <main>
 
     <section class="Tijden">
-        <article>
-            <article class="tijdenipad">
-                <h1>openingstijden</h1>
-            </article>
-            
+        
+        <article class="tijdenipad">
+            <h1>openingstijden</h1>
+        </article>
+        <article class="dagenopen">
             <br>
             <h2>Ma: 12:00 - 21:00 </h2>
             <br>
@@ -33,14 +33,18 @@
             <h2>Za: 11:00 - 22:00 </h2>
             <br>
             <h2>Zo: 11:00 - 22:00 </h2>
-            
-
         </article>
     </section>
+    <article class="extras">
+        <h1>3 APRIL T/M 7 APRIL PAASWEEKEND DEALS! <br> bestel alleen nu de heerlijkste paas gerechten bij vlame en vlees</h1>
+    </article>
+    <section class="Locatietext">
+            <h1>Hier zijn wij gevestigd</h1>
+            
+    </section>
     <section class="Locatie">
-            <h1>Locatie:</h1>
+            
             <img src="img/ZoetermeerLocatie.png" alt="Locatie">
-        </article>
     </section>
  
 </main>

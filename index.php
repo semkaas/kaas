@@ -11,12 +11,12 @@
 </head>
 <body>
 
-<?php include 'includes/header.php'; ?>
+    <?php include 'includes/header.php'; ?>
 
         <article class="wekelijkse">
             <h1> wekelijkse deals </h1>
         </article>
- <section class="deals">
+    <section class="deals">
         <article class="deal1">
             <img src="img/hamlappen.png" alt="fotohamlap">
             <h1> beef brisket 12% korting </h1>
@@ -25,15 +25,15 @@
             <img src="img/patat.webp" alt="fotopatat">
             <h1> patat nu 8% korting </h1>
         </article>
-</section>
+    </section>
     <hr>
-<section class="tekstvlamvlees">
-    <h1>De website van Vlam & Vlees ontstond vanuit dezelfde gedachte als het restaurant zelf: gastvrijheid, vuur en vakmanschap samenbrengen op één plek. Toen Vlam & Vlees zijn deuren opende in Zoetermeer, merkten we al snel dat onze gasten meer wilden dan alleen een tafel in het restaurant. Ze wilden onze sfeer online kunnen voelen, onze gerechten alvast kunnen proeven met hun ogen en eenvoudig een reservering kunnen maken.
-</h1>
-</section>
+    <section class="tekstvlamvlees">
+        <h1>De website van Vlam & Vlees ontstond vanuit dezelfde gedachte als het restaurant zelf: gastvrijheid, vuur en vakmanschap samenbrengen op één plek. Toen Vlam & Vlees zijn deuren opende in Zoetermeer, merkten we al snel dat onze gasten meer wilden dan alleen een tafel in het restaurant. Ze wilden onze sfeer online kunnen voelen, onze gerechten alvast kunnen proeven met hun ogen en eenvoudig een reservering kunnen maken.
+        </h1>
+    </section>
 
  
-<?php include 'includes/footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>
 
