@@ -73,6 +73,18 @@ html{
     align-items: center;
     justify-content: center;
 }
+.voet > h1{
+   
+    max-width: 100%;
+
+
+}
+footer h1{
+/*  (met ai, geen geleerde oplossing) */
+    overflow-wrap: break-word;
+    word-wrap: break-word; 
+    word-break: break-all;
+}
 .hamburger {
  
   background-image: url("../img/menu.png");
@@ -374,15 +386,27 @@ hr {
 
 .Tijden{
     justify-items: center;
-    background-color: grey;
+    background-color: var(--backgroundColor);
     border-radius: 10px;
     margin: 10px; 
     padding: 10px;
     font-size: 1.3rem;
 }
+.titelres{
+    display: none;
+}
+.titelvac{
+    display: none;
+}
+
+.Banen > article > h3{
+    border-bottom: solid black 2px;
+    border-color: var(--borderColor);
+}
+
 .extras{
     justify-items: center;
-    background-color: grey;
+    background-color: var(--backgroundColor);
     border-radius: 10px;
     margin: 10px; 
     padding: 10px;
@@ -406,26 +430,45 @@ hr {
     border: 1px solid black;
     border-radius: 30px;
 }
+.Locatietext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 
+}
 .ipadnav{
     display: none;
 }
 
 
-.Banen > article {
-    border: #000000 solid 2px;
-    
-}
 
 .Banen > .bbqfoto {
-    height: 170px;
-    width: 430px;
+    
+    width: 100vw;
+    height: auto;
 
 }
 
 .Gegevens {
-    border:#000000 solid 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+    border-color: var(--borderColor);
     
+}
+.textveld{
+    width: 90vw;
+   
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    border-radius: 20px;
+    height: 30vh;
+    background-color: var(--backgroundColor);
 }
 
 
