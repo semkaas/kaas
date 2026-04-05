@@ -31,11 +31,14 @@
         </article>
     </section>
     <section class="bestelknop">
-        <h1>   hier resevering boeken</h1>
+        <h1>   hier resevering boeken voor uw gewenste datum</h1>
     </section>
     <section class="fotoagenda">
         <img src="img/agenda.jpg">
     </section>
+    <article class="alergie">
+        <h1>*Allergiën moeten bij de ober van uw tafel worden aangegeven.</h1>
+    </article>
     
 </main>
 <?php include 'includes/footer.php'; ?>

@@ -308,18 +308,13 @@ footer h1{
     
 }
 .titel{
-    background-color: #922C06;
-    justify-items: center;
-    font-size: 2.5rem;
-    height: 6vh;
+    background-color: var(--backgroundColor); 
 }
-.cashback{
-    background-color: limegreen;
-    justify-items: center;
-    
-    height: 5vh;
-    font-size: 1.8rem;
+.titel > h2{
+    font-size: 60px;
+    margin-left: 35vw;
 }
+
 .logo > img{
     max-height: 73px;
     max-width: auto;
@@ -425,6 +420,22 @@ hr {
   
   
 }
+.titel{
+    background-color: var(--backgroundColor); 
+    max-width: 100vw;
+}
+.titel > h3{
+    font-size: 2rem;
+    margin-left: 10vw;
+}
+.cashback{
+    background-color:#19ee3c;
+    max-width: 100vw;
+}
+.cashback > h3{
+    font-size: 2rem;
+    margin-left: 10vw;
+}
 .Locatie > img{
     width: 100%;
     border: 1px solid black;
@@ -506,15 +517,15 @@ hr {
 .titel{
     background-color: var(--backgroundColor); 
 }
-.titel > h2{
-    font-size: 60px;
+.titel > h3{
+    font-size: 3rem;
     margin-left: 35vw;
 }
 .cashback{
-    background-color: #83e865;   
+    background-color:#19ee3c;
 }
-.cashback > h2{
-    font-size: 60px;
+.cashback > h3{
+    font-size: 3.0rem;
     margin-left: 35vw;
 }
 .tijdenipad{
@@ -528,7 +539,7 @@ hr {
 }
 .titelres{
     
-    background-color: var(--backgroundColor)   
+    background-color: var(--backgroundColor);
 }
 .titelres > h1{
     font-size: 60px;
@@ -549,6 +560,44 @@ hr {
     max-height: 73px;
     max-width: auto;
 
+}
+.offertekst{
+    background-color: var(--backgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto1{
+    width: 50vw;
+}
+.foto2{
+    width: 50vw;
+}
+.foto1 > img{
+    width: 50vw;
+}
+.foto2 > img{
+    width: 50vw;
+}
+.bestelknop{
+    background-color: var(--backgroundColor);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+.fotoagenda{
+    max-width: 100vw;
+}
+.fotoagenda > img{
+    max-width: 90vw;
+    margin-left: 5vw;
+    border: solid black 2px;
+    border-color: var(--borderColor);
 }
 .font-controls{
     display: flex;
@@ -577,7 +626,7 @@ hr {
     
     width: 35px;
     height: 100%;
-    margin-top: 22px;
+    margin-top: 14px;
     margin-left: 10vw;
     font-size: 2.5rem;
 }
@@ -647,7 +696,7 @@ hr {
     
 }
 .menuCategory{
-    background-color: var(--backgroundColor)
+    background-color: var(--backgroundColor);
 }
 hr {
   
@@ -656,7 +705,7 @@ hr {
     margin-left: 5vw;
     margin-bottom: 2vh;
     height: 4px;
-    background-color: var(--accent)
+    background-color: var(--accent);
 }
 .tekstvlamvlees{
     margin-bottom: 2vh;
