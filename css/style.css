@@ -1025,6 +1025,63 @@ hr {
         text-align: center;
     }
 
+    .titelvac{
+        background-color: var(--backgroundColor); 
+   
+    }
+    .titelvac > h1{
+    text-align: center;
+    font-size: 60px;
+    }
+
+    .Banen > img{
+    margin-top: 10px;
+    margin-left: 200px;
+    border: solid black 10px;
+    border-radius: 5px;
+    width: 70vw;
+    height: 20vw;
+    
+    }
+
+    .Banen > h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    }
+
+    .Banen > article > h2{
+    font-size: 2rem;
+    }
+
+
+    .Banen > article > h3{
+        font-size: 1.7rem;
+    border-bottom: solid black 2px;
+    border-color: var(--borderColor);
+    }
+
+    .Gegevens {
+    margin: 40px;
+    padding: 100px;
+    background-color: #922C06;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+    border-color: var(--borderColor);  
+    }
+
+    .Banen > .bbqchef {
+    margin-left: 300px;
+    border: solid black 10px;
+    border-radius: 5px;
+    width: 50vw;
+    height: auto;
+    }
+
     .voet{
      margin-top: 15vh;
     }
