@@ -954,6 +954,77 @@ hr {
     margin-bottom: 3vh;
     }
 
+    .titelres{
+    text-align: center;
+    margin-top: 10px;
+    }
+
+    .offertekst{
+    background-color: #922C06;
+    border: solid black 3px;
+    margin-left: 20vw;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 40px;
+    }
+
+    .offerfoto{
+    display: flex;
+    }
+
+    .foto1{
+    margin-top: 3vh;
+    margin-left: 9vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+    width: 40vw;
+    height: auto;
+    }
+
+    .foto1 > img{
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 30vw;
+    height: auto;
+    }
+    
+    .foto2{
+    width: 40vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-left: 10vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+    }
+
+    .foto2 > img{
+    border: solid black 3px;
+    border-radius: 20px;
+    width: 30vw;
+    height: auto;
+    }
+
+    .bestelknop{
+    text-align: center;
+    background-color: #19ee3c;
+    border: solid black 3px;
+    width: 60vw;
+    margin-left: 20vw;
+    border-radius: 20px;
+    border: var(--borderColor);
+    }
+
+    .fotoagenda > img{
+    margin-left: 25%;
+    height: auto;
+    width: 50vw;   
+    }
+
+    .alergie {
+        margin-top: 10px;
+        text-align: center;
+    }
+
     .voet{
      margin-top: 15vh;
     }
