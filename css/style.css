@@ -610,5 +610,51 @@ hr {
     
     html {
         background-color: #000000;
+        background-color: var(--bgColor);
     }
+
+    .Locatie > img {
+        height: 50%;
+
+    }
+
+    .tijdenipad > h1{
+    font-size: 60px;
+    margin-left: 5px;
+}
+
+    .Tijden{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 150px; 
+    padding: 50px;
+    font-size: 1.3rem;
+}
+
+.Locatie > img {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 40%;
+    
+  
+  
+}
+
+.Locatie > h1 {
+    margin-left: 25%;
+    font-size: 3rem;
+}
+
+
+.voet{
+     margin-top: 15vh;
+}
+
+
 }
