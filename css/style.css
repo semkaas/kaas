@@ -48,6 +48,9 @@ h1 {
 p {
   font-size: calc(18px * var(--global-scale));
 }
+h2 {
+  font-size: calc(26px * var(--global-scale));
+}
 
 
 html {
@@ -69,6 +72,18 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.voet > h1{
+   
+    max-width: 100%;
+
+
+}
+footer h1{
+/*  (met ai, geen geleerde oplossing) */
+    overflow-wrap: break-word;
+    word-wrap: break-word; 
+    word-break: break-all;
 }
 .hamburger {
  
@@ -215,7 +230,8 @@ html{
     width: 35px;
     height: 100%;
     margin-top: 22px;
-    margin-left: 10vw;
+    margin-left: 5vw;
+    font-size: 1.3rem;
 }
 .offerfoto{
     display: flex;
@@ -277,7 +293,7 @@ html{
     margin: 5px 0;
     border: 1px solid #000000;
     display: block;
-    font-size: 30px;
+
     
 
 }
@@ -292,18 +308,13 @@ html{
     
 }
 .titel{
-    background-color: #922C06;
-    justify-items: center;
-    font-size: 25px;
-    height: 6vh;
+    background-color: var(--backgroundColor); 
 }
-.cashback{
-    background-color: limegreen;
-    justify-items: center;
-    
-    height: 4vh;
-    font-size: 12px;
+.titel > h2{
+    font-size: 60px;
+    margin-left: 35vw;
 }
+
 .logo > img{
     max-height: 73px;
     max-width: auto;
@@ -370,7 +381,27 @@ hr {
 
 .Tijden{
     justify-items: center;
-    background-color: grey;
+    background-color: var(--backgroundColor);
+    border-radius: 10px;
+    margin: 10px; 
+    padding: 10px;
+    font-size: 1.3rem;
+}
+.titelres{
+    display: none;
+}
+.titelvac{
+    display: none;
+}
+
+.Banen > article > h3{
+    border-bottom: solid black 2px;
+    border-color: var(--borderColor);
+}
+
+.extras{
+    justify-items: center;
+    background-color: var(--backgroundColor);
     border-radius: 10px;
     margin: 10px; 
     padding: 10px;
@@ -378,57 +409,91 @@ hr {
 }
 
 
-
-
-.Locatie > img {
-    width: 80%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 30px;
-    margin-left: 10%;
+.Locatie{
+    display: flex;
+    justify-items: center;
+    width: 90vw;
+    align-items: center;
     
+    margin-left: 5vw;
+    margin-bottom: 5vh;
   
   
 }
-.Locatie{
-    justify-items: center;
-    
+.titel{
+    background-color: var(--backgroundColor); 
+    max-width: 100vw;
+}
+.titel > h3{
+    font-size: 2rem;
+    margin-left: 10vw;
+}
+.cashback{
+    background-color:#19ee3c;
+    max-width: 100vw;
+}
+.cashback > h3{
+    font-size: 2rem;
+    margin-left: 10vw;
+}
+.Locatie > img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.Locatietext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
 }
 .ipadnav{
     display: none;
 }
-}
 
-.Banen > article {
-    border: #000000 solid 2px;
-    
-}
+
 
 .Banen > .bbqfoto {
-    height: 170px;
-    width: 430px;
+    
+    width: 100vw;
+    height: auto;
 
 }
 
 .Gegevens {
-    border:#000000 solid 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+    border-color: var(--borderColor);
     
+}
+.textveld{
+    width: 90vw;
+   
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    border-radius: 20px;
+    height: 30vh;
+    background-color: var(--backgroundColor);
 }
 
 
-
+}
 
 
 
 
 
 /* tablets landscape*/
-@media (min-width: 992px){
+@media (min-width: 992px) and (max-width: 1199px){
 #menu_info{
     display: flex;
     flex-direction: column;
-    
-    
     background-color: var(--backgroundColor);
 }
 #menu_info > h2{
@@ -443,29 +508,30 @@ hr {
     display: flex;
 }
 .wekelijkse{
-    background-color: var(--backgroundColor)   
+    background-color: var(--backgroundColor); 
 }
 .wekelijkse > h1{
     font-size: 60px;
     margin-left: 30vw;
 }
 .titel{
-    background-color: var(--backgroundColor)  
+    background-color: var(--backgroundColor); 
 }
-.titel > h2{
-    font-size: 60px;
+.titel > h3{
+    font-size: 3rem;
     margin-left: 35vw;
 }
 .cashback{
-    background-color: #83e865;   
+    background-color:#19ee3c;
 }
-.cashback > h2{
-    font-size: 60px;
+.cashback > h3{
+    font-size: 3.0rem;
     margin-left: 35vw;
 }
 .tijdenipad{
-    
-    background-color: var(--backgroundColor) 
+    border-bottom: solid black 2px;
+    background-color: var(--backgroundColor);
+    border-color: var(--borderColor);
 }
 .tijdenipad > h1{
     font-size: 60px;
@@ -473,7 +539,7 @@ hr {
 }
 .titelres{
     
-    background-color: var(--backgroundColor)   
+    background-color: var(--backgroundColor);
 }
 .titelres > h1{
     font-size: 60px;
@@ -481,7 +547,10 @@ hr {
 }
 .titelvac{
     
-    background-color: var(--backgroundColor)   
+    background-color: var(--backgroundColor);
+    border-bottom: solid black 2px;
+    border-color: var(--borderColor);
+     
 }
 .titelvac > h1{
     font-size: 60px;
@@ -492,11 +561,50 @@ hr {
     max-width: auto;
 
 }
+.offertekst{
+    background-color: var(--backgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto1{
+    width: 50vw;
+}
+.foto2{
+    width: 50vw;
+}
+.foto1 > img{
+    width: 50vw;
+}
+.foto2 > img{
+    width: 50vw;
+}
+.bestelknop{
+    background-color: var(--backgroundColor);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+.fotoagenda{
+    max-width: 100vw;
+}
+.fotoagenda > img{
+    max-width: 90vw;
+    margin-left: 5vw;
+    border: solid black 2px;
+    border-color: var(--borderColor);
+}
 .font-controls{
-    margin-top: 2vh;
+    display: flex;
+    margin-top: 3vh;
     background-color: transparent;
     font-style: var(--bgThird);
-    margin-left: 60vw;
+    margin-left: 55vw;
 }
 .button-size1{
     width: 44px;
@@ -518,8 +626,9 @@ hr {
     
     width: 35px;
     height: 100%;
-    margin-top: 22px;
-    margin-left: 14vw;
+    margin-top: 14px;
+    margin-left: 10vw;
+    font-size: 2.5rem;
 }
 .ipadnav{
     display: flex;
@@ -530,10 +639,14 @@ hr {
     
 	justify-content:space-around;
     justify-items: center;
+    
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+    border-color: var(--borderColor);
 }
 .ipadnav > a{
     text-decoration: none;
-    color: #000000;
+    color: var(--borderColor);
     font-size: 1.7rem;
 }
 #dropdown-menu{
@@ -542,6 +655,8 @@ hr {
 .deals{
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    background-color: var(--bgColor);
 }
 .deal1 > img{
     width: 50vw;
@@ -553,6 +668,7 @@ hr {
     margin-bottom: 1vh;
     margin-top: 1vh;
     margin-left: 1vw;
+    background-color: var(--bgColor);
     
     
 }
@@ -560,12 +676,13 @@ hr {
     width: 50vw;
     border: solid black 1px;
     border-radius: 30px;
+    min-width: 50vw; 
 }
 .deal2{
     display: flex;
     margin-left: 1vw;
-    margin-bottom: 2cap;
-    
+    margin-bottom: 2vh;
+    background-color: var(--bgColor);
     
 }
 .deal2 > h1{
@@ -579,7 +696,7 @@ hr {
     
 }
 .menuCategory{
-    background-color: var(--backgroundColor)
+    background-color: var(--backgroundColor);
 }
 hr {
   
@@ -588,7 +705,7 @@ hr {
     margin-left: 5vw;
     margin-bottom: 2vh;
     height: 4px;
-    background-color: var(--accent)
+    background-color: var(--accent);
 }
 .tekstvlamvlees{
     margin-bottom: 2vh;
@@ -597,8 +714,64 @@ hr {
     background-color: transparent;
     
 }
+.dagenopen{
+    background-color: var(--backgroundColor);
+   border-bottom: solid black 3px;
+   border-color: var(--borderColor);
 
-
+}
+.dagenopen > h2{
+    
+    margin-left: 3vw;
+}
+.extras{
+    color: var(--textColor);
+    background-color: #922C06;
+    border-bottom: solid black 3px;
+    border-color: var(--borderColor);
+}
+.Locatietext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.Locatie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Locatie > img{
+    border: solid black 3px;
+    border-color: var(--borderColor);
+    margin-bottom: 10vh;
+}
+.Banen > img{
+    width: 100vw;
+}
+.Banen{
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Banen > article{
+    border-bottom: solid black 3px;
+    border-color: var(--borderColor);
+}
+.textveld{
+    width: 90vw;
+    margin-left: 5vw;
+    border: solid black 2px;
+    border-color: var(--borderColor);
+    border-radius: 20px;
+    height: 30vh;
+    background-color: var(--backgroundColor);
+}
 
 }
 
@@ -657,4 +830,5 @@ hr {
 }
 
 
+}
 }
