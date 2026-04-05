@@ -868,7 +868,7 @@ hr {
     width: 100vw;
     background-color: var(--bgColor);
     }
-    
+
     .deal1 > img{
     width: 50vw;
     border: solid black 1px;
@@ -932,9 +932,6 @@ hr {
     border: 1px solid black;
     border-radius: 30px;
     margin-left: 40%;
-    
-  
-  
     }
 
     .Locatie > h1 {
@@ -942,6 +939,20 @@ hr {
     font-size: 3rem;
     }   
 
+    .extras{
+    text-align: center;
+    background-color: var(--backgroundColor);
+    border-radius: 10px;
+    margin: 80px; 
+    padding: 40px;
+    font-size: 1.3rem;
+    }
+    
+    .Locatietext{
+    margin-left: 700px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    }
 
     .voet{
      margin-top: 15vh;
