@@ -528,7 +528,7 @@ hr {
     font-size: 3.0rem;
     margin-left: 35vw;
 }
-.tijdenipad{
+.tijden{
     border-bottom: solid black 2px;
     background-color: var(--backgroundColor);
     border-color: var(--borderColor);
@@ -786,23 +786,176 @@ hr {
         background-color: var(--bgColor);
     }
 
-
-.logo > img{
-    max-height: 110px;
+    .logo > img{
+    max-height: 100px;
     max-width: auto;
+    }
 
-}
+    .ipadnav{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
+    background-color: #922C06;
+    
+	justify-content:space-around;
+    justify-items: center;
+    
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+    border-color: var(--borderColor);
+    }
 
-.banner {
+    .banner {
     background-color: #343434;
-    max-height: 130px;
+    max-height: 150px;
     width: 100vw;
     display: flex;
-}
+    }
 
-.deal1 > img{
+    .ipadnav > a{
+    text-decoration: none;
+    color: var(--borderColor);
+    font-size: 1.7rem;
+    }
+
+    #lightdark {
+    width: 35px;
+    height: 100%;
+    margin-top: 14px;
+    margin-left: 10vw;
+    font-size: 2.5rem;}
+
+    .font-controls{
+    display: flex;
+    margin-top: 3vh;
+    background-color: transparent;
+    font-style: var(--bgThird);
+    margin-left: 55vw;}
+
+.button-size1{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: grey;
+    }
+
+.button-size2{
+    width: 44px;
+    height: 44px;
+    margin-left: 3vw;
+    font-size: 2.0rem;
+    background-color: grey;
+    }
+
+    #dropdown-menu{
+    display: none;
+    }
+
+    .wekelijkse{
+    background-color: var(--backgroundColor); 
+    }
+
+    .wekelijkse > h1{
+    font-size: 60px;
+    margin-left: 30vw;
+    }
+
+    .deals{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: var(--bgColor);
+    }
+
+    .deal1 > img{
     width: 50vw;
     border: solid black 1px;
     border-radius: 30px;
-}
+    }
+
+    .deal1{
+    display: flex;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    background-color: var(--bgColor);   
+    }
+    
+    .deal2 > img{
+    width: 50vw;
+    border: solid black 1px;
+    border-radius: 30px;
+    min-width: 50vw; 
+    }
+
+    .deal2{
+    display: flex;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    background-color: var(--bgColor);
+    }
+
+    .deal2 > h1{
+    margin-left: 4vw;
+    }
+
+    .deal1 > h1{
+    margin-left: 4vw; 
+    }
+
+    .Locatie > img {
+        height: 50%;
+    }
+
+    .tijdenipad > h1{
+    font-size: 60px;
+    margin-left: 5px;
+    }
+
+    .Tijden{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 150px; 
+    padding: 50px;
+    font-size: 1.3rem;
+    }
+
+    .Locatie > img {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 40%;
+    }
+
+    .Locatie > h1 {
+    margin-left: 25%;
+    font-size: 3rem;
+    }   
+
+    .extras{
+    text-align: center;
+    background-color: var(--backgroundColor);
+    border-radius: 10px;
+    margin: 80px; 
+    padding: 40px;
+    font-size: 1.3rem;
+    }
+    
+    .Locatietext{
+    margin-left: 700px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    }
+
+    .voet{
+     margin-top: 15vh;
+    }
+
 }
