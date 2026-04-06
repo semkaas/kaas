@@ -42,7 +42,6 @@
     <article class="alergie">
         <h1>*Allergiën moeten bij de ober van uw tafel worden aangegeven.</h1>
     </article>
-    
 </main>
 <?php include 'includes/footer.php'; ?>
 </body>

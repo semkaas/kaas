@@ -778,6 +778,10 @@ hr {
 
 
 
+
+
+
+
 /* desktops */
 @media (min-width: 1200px) {
     
@@ -812,7 +816,12 @@ hr {
     width: 100vw;
     display: flex;
     }
+    .bbqfoto > img {
+    
+    width: 50vw;
+    height: auto;
 
+}
     .ipadnav > a{
     text-decoration: none;
     color: var(--borderColor);
@@ -1019,6 +1028,20 @@ hr {
     height: auto;
     width: 50vw;   
     }
+    .titel{
+    background-color: var(--backgroundColor); 
+}
+.titel > h3{
+    font-size: 3rem;
+    margin-left: 35vw;
+}
+.cashback{
+    background-color:#19ee3c;
+}
+.cashback > h3{
+    font-size: 3.0rem;
+    margin-left: 35vw;
+}
 
     .alergie {
         margin-top: 10px;
@@ -1040,7 +1063,7 @@ hr {
     border: solid black 10px;
     border-radius: 5px;
     width: 70vw;
-    height: 20vw;
+    height: 55vh;
     
     }
 
@@ -1081,9 +1104,14 @@ hr {
     width: 50vw;
     height: auto;
     }
+    
 
     .voet{
      margin-top: 15vh;
+    }
+    .textveld{
+        width: 70vw;
+        height: 30vh;
     }
 
 }
