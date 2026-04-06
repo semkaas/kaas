@@ -22,11 +22,11 @@
         </article>
     <section class="deals">
         <article class="deal1">
-            <img src="img/hamlappen.png" alt="fotohamlap">
+            <img src="img/hamlappen.png" alt="foto van onze overheerlijke hamlappen met jus">
             <h1> beef brisket 12% korting </h1>
         </article>
         <article class="deal2">
-            <img src="img/patat.webp" alt="fotopatat">
+            <img src="img/patat.webp" alt="foto van onze verse goud gelig heerlijke patat met zout">
             <h1> patat nu 8% korting </h1>
         </article>
     </section>

@@ -21,7 +21,7 @@
 <main>
 
 <section class="Banen">
-         <img src="img/bbqFOTO.jpg" alt="Foto van Bbq" class="bbqfoto">
+         <img src="img/bbqFOTO.jpg" alt="foto van een barbeque met heerlijke gerechten op de gril en grasland op de achtergrond" class="bbqfoto">
          <h2>Beschikbare banen:</h2>
          <br>
     <article>
@@ -74,7 +74,7 @@
          <br>
     </article>
          <br>
-         <img src="img/ChefVlamEnVlees.png" alt="Chef" class="bbqchef">
+         <img src="img/ChefVlamEnVlees.png" alt="foto van een Vlam en Vlees chef die op de barbeque heerlijk vlees aan het maken is" class="bbqchef">
 </section>
 
 
