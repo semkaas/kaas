@@ -44,7 +44,7 @@
     </section>
     <section class="Locatie">
             
-            <img src="img/ZoetermeerLocatie.png" alt="Locatie">
+            <img src="img/ZoetermeerLocatie.png" alt="dit is een foto van waar onze locatie gevestigd is in Zoetermeer">
     </section>
  
 </main>
