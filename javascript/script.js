@@ -19,7 +19,6 @@ else{
 }
     
 }
-
 lightanddark.addEventListener('click', switchMode);
 
 function changeFontSize(delta) {
