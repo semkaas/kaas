@@ -70,7 +70,7 @@
          <br>
     </article>
          <br>
-         <img src="img/ChefVlamEnVlees.png" alt="Chef" class="bbqfoto">
+         <img src="img/ChefVlamEnVlees.png" alt="Chef" class="bbqchef">
 </section>
 
 
