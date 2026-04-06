@@ -12,9 +12,7 @@
 <?php include 'includes/header.php'; ?>
 <header></header>
 <main>
-
     <section class="Tijden">
-        
         <article class="tijdenipad">
             <h1>openingstijden</h1>
         </article>
