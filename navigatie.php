@@ -42,7 +42,6 @@
     </article>
     <section class="Locatietext">
             <h1>Hier zijn wij gevestigd</h1>
-            
     </section>
     <section class="Locatie">
             
