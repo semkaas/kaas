@@ -77,8 +77,8 @@
          <img src="img/ChefVlamEnVlees.png" alt="foto van een Vlam en Vlees chef die op de barbeque heerlijk vlees aan het maken is" class="bbqchef">
 </section>
 
-</main>
-        
+
+</main>       
 <?php include 'includes/footer.php'; ?>
 </body>
 </html>
