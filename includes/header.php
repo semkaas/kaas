@@ -1,5 +1,4 @@
 <header>
-    
     <section class ="banner">
         <article class = "logo">
             <img src="img/logo_vlam_en_vlees.png" alt="Logo Vlam en Vlees">
