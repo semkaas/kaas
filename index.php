@@ -14,9 +14,7 @@
     <script src="javascript/script.js" defer></script>
 </head>
 <body>
-
     <?php include 'includes/header.php'; ?>
-
         <article class="wekelijkse">
             <h1> wekelijkse deals </h1>
         </article>
@@ -35,8 +33,6 @@
         <h1>De website van Vlam & Vlees ontstond vanuit dezelfde gedachte als het restaurant zelf: gastvrijheid, vuur en vakmanschap samenbrengen op één plek. Toen Vlam & Vlees zijn deuren opende in Zoetermeer, merkten we al snel dat onze gasten meer wilden dan alleen een tafel in het restaurant. Ze wilden onze sfeer online kunnen voelen, onze gerechten alvast kunnen proeven met hun ogen en eenvoudig een reservering kunnen maken.
         </h1>
     </section>
-
- 
     <?php include 'includes/footer.php'; ?>
 </body>
 </html>
