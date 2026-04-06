@@ -42,8 +42,7 @@
             <h1>Hier zijn wij gevestigd</h1>
             
     </section>
-    <section class="Locatie">
-            
+    <section class="Locatie">     
             <img src="img/ZoetermeerLocatie.png" alt="Locatie">
     </section>
  
