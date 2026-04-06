@@ -14,7 +14,6 @@
     <article class="titelres">
         <h1>reseveren</h1>
     </article>
-    
     <section class="offer">
         <article class ="offertekst">
             <h1> WK feest deal -  tafel voor 2 vanaf 39,99$ per persoon
