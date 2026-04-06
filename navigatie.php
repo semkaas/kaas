@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="webpagina van restaurant Vlam en Vlees Zoetermeer">
+    <meta name="keywords" content="HTML, reseveren, locatie, Zoetermeer, Vlam, Vlees, VlamenVlees, restaurant, dinner,">
+    <meta name="author" content="Sem en Sidney">
+    <title>Vlam en Vlees Zoetermeer Restaurant toegankelijk voor gehandicapte mensen</title>
+    <link rel="icon" href="img/logo_vlam_en_vlees.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <script src="javascript/script.js" defer></script>
-   
 </head>
 <body>
 <?php include 'includes/header.php'; ?>
