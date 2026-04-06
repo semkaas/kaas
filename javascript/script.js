@@ -1,13 +1,10 @@
 let lightanddark = document.getElementById("lightdark");
 document.documentElement.dataset.mode = localStorage.getItem("theme");
 
-
-
 function toggleMenu() {
     const menu = document.getElementById('dropdown-menu');
     menu.classList.toggle('open');
 }
-
 function switchMode(){
     if(document.documentElement.dataset.mode != "dark"){
        document.documentElement.dataset.mode = 'dark';
@@ -17,9 +14,7 @@ else{
     document.documentElement.dataset.mode = "light";
     localStorage.setItem("theme", "light");
 }
-    
 }
-
 lightanddark.addEventListener('click', switchMode);
 
 function changeFontSize(delta) {
